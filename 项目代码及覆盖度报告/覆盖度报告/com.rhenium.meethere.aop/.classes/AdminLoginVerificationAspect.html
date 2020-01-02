@@ -1,0 +1,155 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: AdminLoginVerificationAspect</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.aop</a> ]
+</div>
+
+<h1>Coverage Summary for Class: AdminLoginVerificationAspect (com.rhenium.meethere.aop)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">AdminLoginVerificationAspect</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    75%
+  </span>
+  <span class="absValue">
+    (3/ 4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    96.8%
+  </span>
+  <span class="absValue">
+    (30/ 31)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.aop;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.dto.AdminRequest;
+<i>4</i>&nbsp;import com.rhenium.meethere.dto.NewsRequest;
+<i>5</i>&nbsp;import com.rhenium.meethere.enums.ResultEnum;
+<i>6</i>&nbsp;import com.rhenium.meethere.exception.MyException;
+<i>7</i>&nbsp;import com.rhenium.meethere.util.JwtUtil;
+<i>8</i>&nbsp;import io.jsonwebtoken.Claims;
+<i>9</i>&nbsp;import io.netty.util.internal.StringUtil;
+<i>10</i>&nbsp;import lombok.extern.slf4j.Slf4j;
+<i>11</i>&nbsp;import org.aspectj.lang.JoinPoint;
+<i>12</i>&nbsp;import org.aspectj.lang.annotation.Aspect;
+<i>13</i>&nbsp;import org.aspectj.lang.annotation.Before;
+<i>14</i>&nbsp;import org.aspectj.lang.annotation.Pointcut;
+<i>15</i>&nbsp;import org.springframework.stereotype.Component;
+<i>16</i>&nbsp;import org.springframework.util.StringUtils;
+<i>17</i>&nbsp;import org.springframework.web.context.request.RequestAttributes;
+<i>18</i>&nbsp;import org.springframework.web.context.request.RequestContextHolder;
+<i>19</i>&nbsp;import org.springframework.web.context.request.ServletRequestAttributes;
+<i>20</i>&nbsp;
+<i>21</i>&nbsp;import javax.servlet.http.HttpServlet;
+<i>22</i>&nbsp;import javax.servlet.http.HttpServletRequest;
+<i>23</i>&nbsp;import java.lang.reflect.Field;
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;/**
+<i>26</i>&nbsp; * @author HavenTong
+<i>27</i>&nbsp; * @date 2019/12/17 9:45 下午
+<i>28</i>&nbsp; */
+<i>29</i>&nbsp;@Aspect
+<b class="fc"><i>30</i>&nbsp;@Slf4j</b>
+<i>31</i>&nbsp;@Component
+<b class="fc"><i>32</i>&nbsp;public class AdminLoginVerificationAspect {</b>
+<i>33</i>&nbsp;    @Pointcut(&quot;@annotation(com.rhenium.meethere.annotation.AdminLoginRequired)&quot;)
+<b class="nc"><i>34</i>&nbsp;    public void verifyAdminLoginPoint(){}</b>
+<i>35</i>&nbsp;
+<i>36</i>&nbsp;    @Before(&quot;verifyAdminLoginPoint()&quot;)
+<i>37</i>&nbsp;    public void verifyAdminLogin(JoinPoint joinPoint) throws IllegalAccessException {
+<b class="fc"><i>38</i>&nbsp;        RequestAttributes requestAttributes = RequestContextHolder.getRequestAttributes();</b>
+<b class="fc"><i>39</i>&nbsp;        ServletRequestAttributes servletRequestAttributes = (ServletRequestAttributes) requestAttributes;</b>
+<b class="fc"><i>40</i>&nbsp;        HttpServletRequest httpServletRequest = servletRequestAttributes.getRequest();</b>
+<b class="fc"><i>41</i>&nbsp;        String token = httpServletRequest.getHeader(&quot;TOKEN&quot;);</b>
+<b class="fc"><i>42</i>&nbsp;        if (StringUtils.isEmpty(token)){</b>
+<b class="fc"><i>43</i>&nbsp;            throw new MyException(ResultEnum.TOKEN_NOT_EXIST);</b>
+<i>44</i>&nbsp;        }
+<b class="fc"><i>45</i>&nbsp;        Claims claims = JwtUtil.parseJwt(token);</b>
+<b class="fc"><i>46</i>&nbsp;        Integer decodedAdminId = Integer.parseInt(claims.getId());</b>
+<b class="fc"><i>47</i>&nbsp;        String method = httpServletRequest.getMethod();</b>
+<b class="fc"><i>48</i>&nbsp;        Object[] arguments = joinPoint.getArgs();</b>
+<b class="fc"><i>49</i>&nbsp;        Integer actualAdminId = -1;</b>
+<b class="fc"><i>50</i>&nbsp;        if (&quot;GET&quot;.equals(method)){</b>
+<b class="fc"><i>51</i>&nbsp;            actualAdminId = (Integer) arguments[arguments.length - 1];</b>
+<b class="fc"><i>52</i>&nbsp;        } else if (&quot;POST&quot;.equals(method)){</b>
+<b class="fc"><i>53</i>&nbsp;            Object argument = arguments[0];</b>
+<b class="fc"><i>54</i>&nbsp;            Field[] fields = argument.getClass().getDeclaredFields();</b>
+<b class="fc"><i>55</i>&nbsp;            for (Field field : fields){</b>
+<b class="fc"><i>56</i>&nbsp;                field.setAccessible(true);</b>
+<b class="fc"><i>57</i>&nbsp;                if (&quot;adminId&quot;.equals(field.getName())){</b>
+<b class="fc"><i>58</i>&nbsp;                    log.info(&quot;string actualId: {}&quot;, field.get(argument));</b>
+<b class="fc"><i>59</i>&nbsp;                    actualAdminId = (Integer) field.get(argument);</b>
+<b class="fc"><i>60</i>&nbsp;                    log.info(&quot;actualAdminId: {}&quot;, actualAdminId);</b>
+<b class="fc"><i>61</i>&nbsp;                    break;</b>
+<i>62</i>&nbsp;                }
+<i>63</i>&nbsp;            }
+<i>64</i>&nbsp;        }
+<b class="fc"><i>65</i>&nbsp;        if (!decodedAdminId.equals(actualAdminId)){</b>
+<b class="fc"><i>66</i>&nbsp;            log.info(&quot;not equals: actual: {}&quot;, actualAdminId);</b>
+<b class="fc"><i>67</i>&nbsp;            log.info(&quot;not equals: decoded: {}&quot;, decodedAdminId);</b>
+<b class="fc"><i>68</i>&nbsp;            throw new MyException(ResultEnum.TOKEN_NOT_MATCH);</b>
+<i>69</i>&nbsp;        }
+<b class="fc"><i>70</i>&nbsp;    }</b>
+<i>71</i>&nbsp;
+<i>72</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

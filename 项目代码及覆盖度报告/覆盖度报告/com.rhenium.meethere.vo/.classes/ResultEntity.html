@@ -1,0 +1,154 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: ResultEntity</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.vo</a> ]
+</div>
+
+<h1>Coverage Summary for Class: ResultEntity (com.rhenium.meethere.vo)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">ResultEntity</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    77.8%
+  </span>
+  <span class="absValue">
+    (7/ 9)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    84.6%
+  </span>
+  <span class="absValue">
+    (11/ 13)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.vo;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.enums.ResultEnum;
+<i>4</i>&nbsp;import lombok.Data;
+<i>5</i>&nbsp;
+<i>6</i>&nbsp;/**
+<i>7</i>&nbsp; * @author HavenTong
+<i>8</i>&nbsp; * @date 2019/12/7 8:19 下午
+<i>9</i>&nbsp; * ResultEntity用于请求的响应，作为controller所有方法的返回值类型
+<i>10</i>&nbsp; *
+<i>11</i>&nbsp; */
+<b class="nc"><i>12</i>&nbsp;@Data</b>
+<i>13</i>&nbsp;public class ResultEntity {
+<i>14</i>&nbsp;    /**
+<i>15</i>&nbsp;     * data: 返回的数据
+<i>16</i>&nbsp;     */
+<b class="fc"><i>17</i>&nbsp;    private Object data;</b>
+<i>18</i>&nbsp;
+<i>19</i>&nbsp;    /**
+<i>20</i>&nbsp;     * code: 0-表示成功，-1-表示失败
+<i>21</i>&nbsp;     */
+<b class="fc"><i>22</i>&nbsp;    private Integer code;</b>
+<i>23</i>&nbsp;
+<i>24</i>&nbsp;    /**
+<i>25</i>&nbsp;     * message: 返回的信息
+<i>26</i>&nbsp;     */
+<b class="fc"><i>27</i>&nbsp;    private String message;</b>
+<i>28</i>&nbsp;
+<b class="fc"><i>29</i>&nbsp;    private ResultEntity(Object data, Integer code, String message) {</b>
+<b class="fc"><i>30</i>&nbsp;        this.data = data;</b>
+<b class="fc"><i>31</i>&nbsp;        this.code = code;</b>
+<b class="fc"><i>32</i>&nbsp;        this.message = message;</b>
+<b class="fc"><i>33</i>&nbsp;    }</b>
+<i>34</i>&nbsp;
+<i>35</i>&nbsp;    /**
+<i>36</i>&nbsp;     * 成功，但不返回数据
+<i>37</i>&nbsp;     * @return
+<i>38</i>&nbsp;     */
+<i>39</i>&nbsp;    public static ResultEntity succeed(){
+<b class="fc"><i>40</i>&nbsp;        return new ResultEntity(null, 0, &quot;success&quot;);</b>
+<i>41</i>&nbsp;    }
+<i>42</i>&nbsp;
+<i>43</i>&nbsp;    /**
+<i>44</i>&nbsp;     *  成功且需要返回数据
+<i>45</i>&nbsp;     * @param data 返回的数据
+<i>46</i>&nbsp;     * @return
+<i>47</i>&nbsp;     */
+<i>48</i>&nbsp;    public static ResultEntity succeed(Object data){
+<b class="fc"><i>49</i>&nbsp;        return new ResultEntity(data, 0, &quot;success&quot;);</b>
+<i>50</i>&nbsp;    }
+<i>51</i>&nbsp;
+<i>52</i>&nbsp;    /**
+<i>53</i>&nbsp;     * 失败且返回失败信息
+<i>54</i>&nbsp;     * @param message 失败信息
+<i>55</i>&nbsp;     * @return
+<i>56</i>&nbsp;     */
+<i>57</i>&nbsp;    public static ResultEntity fail(String message){
+<b class="fc"><i>58</i>&nbsp;        return new ResultEntity(null, -1, message);</b>
+<i>59</i>&nbsp;    }
+<i>60</i>&nbsp;
+<i>61</i>&nbsp;    /**
+<i>62</i>&nbsp;     * 失败且返回失败的枚举类型
+<i>63</i>&nbsp;     * @param resultEnum 失败的枚举类型
+<i>64</i>&nbsp;     * @return
+<i>65</i>&nbsp;     */
+<i>66</i>&nbsp;    public static ResultEntity fail(ResultEnum resultEnum){
+<b class="nc"><i>67</i>&nbsp;        return new ResultEntity(null, resultEnum.getCode(), resultEnum.getMessage());</b>
+<i>68</i>&nbsp;    }
+<i>69</i>&nbsp;
+<i>70</i>&nbsp;
+<i>71</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,177 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: CommentController</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.controller</a> ]
+</div>
+
+<h1>Coverage Summary for Class: CommentController (com.rhenium.meethere.controller)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CommentController</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (8/ 8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (15/ 15)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">CommentController$$EnhancerBySpringCGLIB$$46ae29b</td>
+  </tr>
+  <tr>
+    <td class="name">CommentController$$EnhancerBySpringCGLIB$$46ae29b$$FastClassBySpringCGLIB$$6c7f763</td>
+  </tr>
+  <tr>
+    <td class="name">CommentController$$FastClassBySpringCGLIB$$139effa7</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (8/ 8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (15/ 15)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.controller;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.annotation.AdminLoginRequired;
+<i>4</i>&nbsp;import com.rhenium.meethere.annotation.UserLoginRequired;
+<i>5</i>&nbsp;import com.rhenium.meethere.dto.AdminRequest;
+<i>6</i>&nbsp;import com.rhenium.meethere.dto.CommentRequest;
+<i>7</i>&nbsp;import com.rhenium.meethere.service.CommentService;
+<i>8</i>&nbsp;import com.rhenium.meethere.vo.ResultEntity;
+<i>9</i>&nbsp;import org.springframework.beans.factory.annotation.Autowired;
+<i>10</i>&nbsp;import org.springframework.validation.annotation.Validated;
+<i>11</i>&nbsp;import org.springframework.web.bind.annotation.*;
+<i>12</i>&nbsp;
+<i>13</i>&nbsp;import java.util.ArrayList;
+<i>14</i>&nbsp;import java.util.List;
+<i>15</i>&nbsp;import java.util.Map;
+<i>16</i>&nbsp;
+<i>17</i>&nbsp;/**
+<i>18</i>&nbsp; * @author HavenTong
+<i>19</i>&nbsp; * @date 2019/12/20 1:33 下午
+<i>20</i>&nbsp; */
+<i>21</i>&nbsp;@RestController
+<i>22</i>&nbsp;@RequestMapping(&quot;/comment&quot;)
+<b class="fc"><i>23</i>&nbsp;public class CommentController {</b>
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;    @Autowired
+<i>26</i>&nbsp;    private CommentService commentService;
+<i>27</i>&nbsp;
+<i>28</i>&nbsp;    @PostMapping(&quot;/delete-by-admin&quot;)
+<i>29</i>&nbsp;    @AdminLoginRequired
+<i>30</i>&nbsp;    public ResultEntity deleteByAdmin(@RequestBody AdminRequest adminRequest){
+<b class="fc"><i>31</i>&nbsp;        commentService.deleteCommentByAdmin(adminRequest);</b>
+<b class="fc"><i>32</i>&nbsp;        return ResultEntity.succeed();</b>
+<i>33</i>&nbsp;    }
+<i>34</i>&nbsp;
+<i>35</i>&nbsp;
+<i>36</i>&nbsp;    @GetMapping(&quot;/get-by-user&quot;)
+<i>37</i>&nbsp;    @UserLoginRequired
+<i>38</i>&nbsp;    public ResultEntity getCommentByStadiumId(@RequestParam int stadiumId,
+<i>39</i>&nbsp;                                              @RequestParam int customerId) {
+<b class="fc"><i>40</i>&nbsp;        ArrayList&lt;Map&lt;String, String&gt;&gt; comments = commentService.getCommentByStadiumId(stadiumId, customerId);</b>
+<b class="fc"><i>41</i>&nbsp;        return ResultEntity.succeed(comments);</b>
+<i>42</i>&nbsp;    }
+<i>43</i>&nbsp;
+<i>44</i>&nbsp;    @RequestMapping(value = &quot;/get-comment-count&quot;, method = RequestMethod.GET)
+<i>45</i>&nbsp;    @AdminLoginRequired
+<i>46</i>&nbsp;    public ResultEntity getCommentCount(@RequestParam int adminId) {
+<b class="fc"><i>47</i>&nbsp;        Map&lt;String, String&gt; data = commentService.getCommentCount();</b>
+<b class="fc"><i>48</i>&nbsp;        return ResultEntity.succeed(data);</b>
+<i>49</i>&nbsp;    }
+<i>50</i>&nbsp;
+<i>51</i>&nbsp;    @RequestMapping(value = &quot;/get-comment-list&quot;, method = RequestMethod.GET)
+<i>52</i>&nbsp;    @AdminLoginRequired
+<i>53</i>&nbsp;    public ResultEntity getCommentList(@RequestParam int offset, @RequestParam int limit, @RequestParam int adminId) {
+<b class="fc"><i>54</i>&nbsp;        List&lt;Map&lt;String, String&gt;&gt; data = commentService.getCommentList(offset, limit);</b>
+<b class="fc"><i>55</i>&nbsp;        return ResultEntity.succeed(data);</b>
+<i>56</i>&nbsp;    }
+<i>57</i>&nbsp;
+<i>58</i>&nbsp;    @PostMapping(&quot;/add&quot;)
+<i>59</i>&nbsp;    @UserLoginRequired
+<i>60</i>&nbsp;    public ResultEntity addComment(@Validated @RequestBody CommentRequest commentRequest) {
+<b class="fc"><i>61</i>&nbsp;        commentService.addNewComment(commentRequest);</b>
+<b class="fc"><i>62</i>&nbsp;        return ResultEntity.succeed();</b>
+<i>63</i>&nbsp;    }
+<i>64</i>&nbsp;
+<i>65</i>&nbsp;    @PostMapping(&quot;/delete-by-user&quot;)
+<i>66</i>&nbsp;    @UserLoginRequired
+<i>67</i>&nbsp;    public ResultEntity deleteByCustomer(@RequestBody CommentRequest commentRequest) {
+<b class="fc"><i>68</i>&nbsp;        commentService.deleteCommentByCustomer(commentRequest);</b>
+<b class="fc"><i>69</i>&nbsp;        return ResultEntity.succeed();</b>
+<i>70</i>&nbsp;    }
+<i>71</i>&nbsp;
+<i>72</i>&nbsp;    @PostMapping(&quot;/update-likes&quot;)
+<i>73</i>&nbsp;    @UserLoginRequired
+<i>74</i>&nbsp;    public ResultEntity updateLikes(@RequestBody CommentRequest commentRequest){
+<b class="fc"><i>75</i>&nbsp;        commentService.updateLikes(commentRequest);</b>
+<b class="fc"><i>76</i>&nbsp;        return ResultEntity.succeed();</b>
+<i>77</i>&nbsp;    }
+<i>78</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

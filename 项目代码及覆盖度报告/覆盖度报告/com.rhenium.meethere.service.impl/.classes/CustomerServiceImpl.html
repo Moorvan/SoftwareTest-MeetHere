@@ -1,0 +1,255 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: CustomerServiceImpl</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.service.impl</a> ]
+</div>
+
+<h1>Coverage Summary for Class: CustomerServiceImpl (com.rhenium.meethere.service.impl)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CustomerServiceImpl</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (7/ 7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (58/ 58)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">CustomerServiceImpl$MockitoMock$586512127</td>
+  </tr>
+  <tr>
+    <td class="name">CustomerServiceImpl$MockitoMock$586512127$auxiliary$3pwlO1fC</td>
+  </tr>
+  <tr>
+    <td class="name">CustomerServiceImpl$MockitoMock$586512127$auxiliary$FbSEgWbs</td>
+  </tr>
+  <tr>
+    <td class="name">CustomerServiceImpl$MockitoMock$586512127$auxiliary$KeWOTNst</td>
+  </tr>
+  <tr>
+    <td class="name">CustomerServiceImpl$MockitoMock$586512127$auxiliary$L5w0hxOk</td>
+  </tr>
+  <tr>
+    <td class="name">CustomerServiceImpl$MockitoMock$586512127$auxiliary$SmSmavcW</td>
+  </tr>
+  <tr>
+    <td class="name">CustomerServiceImpl$MockitoMock$586512127$auxiliary$W7jGR6Em</td>
+  </tr>
+  <tr>
+    <td class="name">CustomerServiceImpl$MockitoMock$586512127$auxiliary$wsUkpEcv</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (7/ 7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (58/ 58)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.service.impl;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.dao.CustomerDao;
+<i>4</i>&nbsp;import com.rhenium.meethere.domain.Customer;
+<i>5</i>&nbsp;import com.rhenium.meethere.dto.CustomerRequest;
+<i>6</i>&nbsp;import com.rhenium.meethere.enums.ResultEnum;
+<i>7</i>&nbsp;import com.rhenium.meethere.exception.MyException;
+<i>8</i>&nbsp;import com.rhenium.meethere.service.CustomerService;
+<i>9</i>&nbsp;import com.rhenium.meethere.service.MailService;
+<i>10</i>&nbsp;import com.rhenium.meethere.util.CheckCodeUtil;
+<i>11</i>&nbsp;import com.rhenium.meethere.util.JwtUtil;
+<i>12</i>&nbsp;import com.rhenium.meethere.vo.ResultEntity;
+<i>13</i>&nbsp;import lombok.extern.slf4j.Slf4j;
+<i>14</i>&nbsp;import org.springframework.beans.factory.annotation.Autowired;
+<i>15</i>&nbsp;import org.springframework.data.redis.core.StringRedisTemplate;
+<i>16</i>&nbsp;import org.springframework.format.annotation.DateTimeFormat;
+<i>17</i>&nbsp;import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+<i>18</i>&nbsp;import org.springframework.stereotype.Service;
+<i>19</i>&nbsp;import org.springframework.util.StringUtils;
+<i>20</i>&nbsp;
+<i>21</i>&nbsp;import java.time.LocalDateTime;
+<i>22</i>&nbsp;import java.time.format.DateTimeFormatter;
+<i>23</i>&nbsp;import java.util.HashMap;
+<i>24</i>&nbsp;import java.util.Map;
+<i>25</i>&nbsp;import java.util.concurrent.TimeUnit;
+<i>26</i>&nbsp;
+<i>27</i>&nbsp;/**
+<i>28</i>&nbsp; * @author HavenTong
+<i>29</i>&nbsp; * @date 2019/12/7 6:05 下午
+<i>30</i>&nbsp; */
+<i>31</i>&nbsp;@Service
+<b class="fc"><i>32</i>&nbsp;@Slf4j</b>
+<b class="fc"><i>33</i>&nbsp;public class CustomerServiceImpl implements CustomerService {</b>
+<i>34</i>&nbsp;
+<i>35</i>&nbsp;    @Autowired
+<i>36</i>&nbsp;    private StringRedisTemplate redisTemplate;
+<i>37</i>&nbsp;
+<i>38</i>&nbsp;    @Autowired
+<i>39</i>&nbsp;    private MailService mailService;
+<i>40</i>&nbsp;
+<i>41</i>&nbsp;    @Autowired
+<i>42</i>&nbsp;    private CustomerDao customerDao;
+<i>43</i>&nbsp;
+<i>44</i>&nbsp;    @Autowired
+<i>45</i>&nbsp;    private BCryptPasswordEncoder encoder;
+<i>46</i>&nbsp;
+<i>47</i>&nbsp;    @Override
+<i>48</i>&nbsp;    public void sendCheckCode(String email) {
+<i>49</i>&nbsp;        // 判断邮箱是否存在，若存在则不发送
+<b class="fc"><i>50</i>&nbsp;        Customer customer = customerDao.findCustomerByEmail(email);</b>
+<b class="fc"><i>51</i>&nbsp;        if (customer != null){</b>
+<b class="fc"><i>52</i>&nbsp;            throw new MyException(ResultEnum.EMAIL_EXISTS);</b>
+<i>53</i>&nbsp;        }
+<i>54</i>&nbsp;        // 邮箱不存在，发送验证码
+<b class="fc"><i>55</i>&nbsp;        String checkCode = CheckCodeUtil.generateCheckCode();</b>
+<b class="fc"><i>56</i>&nbsp;        redisTemplate.opsForValue().set(&quot;code:&quot; + email, checkCode, 300, TimeUnit.SECONDS);</b>
+<b class="fc"><i>57</i>&nbsp;        String subject= &quot;Registration from MeetHere&quot;;</b>
+<b class="fc"><i>58</i>&nbsp;        String content = &quot;&lt;h1&gt;Welcome to MeetHere!&lt;/h1&gt;&lt;p&gt;Your check code is &lt;u&gt;&quot; +</b>
+<i>59</i>&nbsp;                checkCode + &quot;&lt;/u&gt;&lt;/p&gt;&quot;;
+<b class="fc"><i>60</i>&nbsp;        mailService.sendHtmlMail(email, subject, content);</b>
+<b class="fc"><i>61</i>&nbsp;    }</b>
+<i>62</i>&nbsp;
+<i>63</i>&nbsp;    @Override
+<i>64</i>&nbsp;    public void register(CustomerRequest customerRequest) {
+<b class="fc"><i>65</i>&nbsp;        String expectedCode = redisTemplate.opsForValue().get(&quot;code:&quot; + customerRequest.getEmail());</b>
+<b class="fc"><i>66</i>&nbsp;        if (expectedCode == null){</b>
+<b class="fc"><i>67</i>&nbsp;            throw new MyException(ResultEnum.EMAIL_NO_CHECK_CODE);</b>
+<i>68</i>&nbsp;        }
+<b class="fc"><i>69</i>&nbsp;        if (!expectedCode.equals(customerRequest.getCheckCode())){</b>
+<b class="fc"><i>70</i>&nbsp;            throw new MyException(ResultEnum.CHECK_CODE_ERROR);</b>
+<i>71</i>&nbsp;        }
+<b class="fc"><i>72</i>&nbsp;        Customer customer = new Customer();</b>
+<b class="fc"><i>73</i>&nbsp;        customer.setEmail(customerRequest.getEmail());</b>
+<b class="fc"><i>74</i>&nbsp;        customer.setPassword(encoder.encode(customerRequest.getPassword()));</b>
+<b class="fc"><i>75</i>&nbsp;        customer.setUserName(customerRequest.getUserName());</b>
+<b class="fc"><i>76</i>&nbsp;        customer.setRegisteredTime(LocalDateTime.now());</b>
+<b class="fc"><i>77</i>&nbsp;        customerDao.saveNewCustomer(customer);</b>
+<b class="fc"><i>78</i>&nbsp;    }</b>
+<i>79</i>&nbsp;
+<i>80</i>&nbsp;    @Override
+<i>81</i>&nbsp;    public void saveUserInfo(CustomerRequest customerRequest) {
+<b class="fc"><i>82</i>&nbsp;        if (StringUtils.isEmpty(customerRequest.getUserName())){</b>
+<b class="fc"><i>83</i>&nbsp;            throw new MyException(ResultEnum.USER_NAME_EMPTY);</b>
+<i>84</i>&nbsp;        }
+<b class="fc"><i>85</i>&nbsp;        log.info(&quot;password: {}&quot;, customerRequest.getPassword());</b>
+<i>86</i>&nbsp;        // 因为拦截在控制器之前就已经完成，所以该 customerId 是值得信任的
+<b class="fc"><i>87</i>&nbsp;        customerDao.saveCustomerInfo(customerRequest.getCustomerId().toString(), customerRequest.getUserName(), customerRequest.getPhoneNumber());</b>
+<b class="fc"><i>88</i>&nbsp;    }</b>
+<i>89</i>&nbsp;
+<i>90</i>&nbsp;    @Override
+<i>91</i>&nbsp;    public Map&lt;String, String&gt; login(CustomerRequest customerRequest) {
+<i>92</i>&nbsp;        // 根据邮箱和密码进行登录，首先通过邮箱查找用户判断用户是否存在，
+<i>93</i>&nbsp;        // 若存在则判断密码，若密码一致则生成JWT，将信息放入Map中返回，
+<i>94</i>&nbsp;        // 密码不一致抛出异常
+<i>95</i>&nbsp;        // 用户不存在抛出异常
+<i>96</i>&nbsp;
+<i>97</i>&nbsp;        // 去除空格
+<b class="fc"><i>98</i>&nbsp;        String email = StringUtils.trimWhitespace(customerRequest.getEmail());</b>
+<b class="fc"><i>99</i>&nbsp;        Customer customer = customerDao.findCustomerByEmail(email);</b>
+<b class="fc"><i>100</i>&nbsp;        if (customer == null){</b>
+<b class="fc"><i>101</i>&nbsp;            throw new MyException(ResultEnum.USER_NOT_EXIST);</b>
+<i>102</i>&nbsp;        }
+<b class="fc"><i>103</i>&nbsp;        if (!encoder.matches(customerRequest.getPassword(), customer.getPassword())){</b>
+<b class="fc"><i>104</i>&nbsp;            throw new MyException(ResultEnum.PASSWORD_ERROR);</b>
+<i>105</i>&nbsp;        }
+<b class="fc"><i>106</i>&nbsp;        Map&lt;String, String&gt; loginInfo = new HashMap&lt;&gt;();</b>
+<b class="fc"><i>107</i>&nbsp;        String token = JwtUtil.createJwt(customer);</b>
+<b class="fc"><i>108</i>&nbsp;        String customerId = customer.getCustomerId().toString();</b>
+<b class="fc"><i>109</i>&nbsp;        String userName = customer.getUserName();</b>
+<b class="fc"><i>110</i>&nbsp;        String phoneNumber = customer.getPhoneNumber();</b>
+<b class="fc"><i>111</i>&nbsp;        DateTimeFormatter dft = DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd&quot;);</b>
+<b class="fc"><i>112</i>&nbsp;        LocalDateTime registeredTime = customer.getRegisteredTime();</b>
+<b class="fc"><i>113</i>&nbsp;        String dateString = registeredTime.format(dft);</b>
+<b class="fc"><i>114</i>&nbsp;        loginInfo.put(&quot;token&quot;, token);</b>
+<b class="fc"><i>115</i>&nbsp;        loginInfo.put(&quot;customerId&quot;, customerId);</b>
+<b class="fc"><i>116</i>&nbsp;        loginInfo.put(&quot;email&quot;, email);</b>
+<b class="fc"><i>117</i>&nbsp;        loginInfo.put(&quot;userName&quot;, userName);</b>
+<b class="fc"><i>118</i>&nbsp;        loginInfo.put(&quot;phoneNumber&quot;, phoneNumber);</b>
+<b class="fc"><i>119</i>&nbsp;        loginInfo.put(&quot;registeredTime&quot;, dateString);</b>
+<b class="fc"><i>120</i>&nbsp;        return loginInfo;</b>
+<i>121</i>&nbsp;    }
+<i>122</i>&nbsp;
+<i>123</i>&nbsp;    @Override
+<i>124</i>&nbsp;    public void changePassword(CustomerRequest customerRequest) {
+<b class="fc"><i>125</i>&nbsp;        String newPassword = customerRequest.getNewPassword();</b>
+<b class="fc"><i>126</i>&nbsp;        if (StringUtils.isEmpty(newPassword)){</b>
+<b class="fc"><i>127</i>&nbsp;            throw new MyException(ResultEnum.NEW_PASSWORD_EMPTY);</b>
+<i>128</i>&nbsp;        }
+<b class="fc"><i>129</i>&nbsp;        Customer customer = customerDao.findCustomerById(customerRequest.getCustomerId());</b>
+<b class="fc"><i>130</i>&nbsp;        if (!encoder.matches(customerRequest.getPassword(), customer.getPassword())){</b>
+<b class="fc"><i>131</i>&nbsp;            throw new MyException(ResultEnum.PASSWORD_ERROR);</b>
+<i>132</i>&nbsp;        }
+<b class="fc"><i>133</i>&nbsp;        customer.setPassword(encoder.encode(newPassword));</b>
+<b class="fc"><i>134</i>&nbsp;        customerDao.saveNewPassword(customer);</b>
+<b class="fc"><i>135</i>&nbsp;    }</b>
+<i>136</i>&nbsp;
+<i>137</i>&nbsp;//    @Override
+<i>138</i>&nbsp;//    public Customer getOne(String email) {
+<i>139</i>&nbsp;//        return customerDao.findCustomerByEmail(email);
+<i>140</i>&nbsp;//    }
+<i>141</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

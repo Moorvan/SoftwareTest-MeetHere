@@ -1,0 +1,106 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: CustomerDao</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.dao</a> ]
+</div>
+
+<h1>Coverage Summary for Class: CustomerDao (com.rhenium.meethere.dao)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+</tr>
+  <tr>
+    <td class="name">CustomerDao$MockitoMock$1842392256</td>
+  </tr>
+  <tr>
+    <td class="name">CustomerDao$MockitoMock$1842392256$auxiliary$2bVCgrki</td>
+  </tr>
+  <tr>
+    <td class="name">CustomerDao$MockitoMock$1842392256$auxiliary$e5Ukp0a4</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.dao;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.domain.Customer;
+<i>4</i>&nbsp;import org.apache.ibatis.annotations.*;
+<i>5</i>&nbsp;import org.springframework.stereotype.Repository;
+<i>6</i>&nbsp;import org.springframework.util.StringUtils;
+<i>7</i>&nbsp;
+<i>8</i>&nbsp;import java.time.LocalDateTime;
+<i>9</i>&nbsp;import java.util.List;
+<i>10</i>&nbsp;
+<i>11</i>&nbsp;/**
+<i>12</i>&nbsp; * @author HavenTong
+<i>13</i>&nbsp; * @date 2019/12/7 9:43 下午
+<i>14</i>&nbsp; */
+<i>15</i>&nbsp;@Repository
+<i>16</i>&nbsp;@Mapper
+<i>17</i>&nbsp;public interface CustomerDao {
+<i>18</i>&nbsp;
+<i>19</i>&nbsp;    @Select(&quot;SELECT * FROM customer WHERE email = #{email}&quot;)
+<i>20</i>&nbsp;    Customer findCustomerByEmail(@Param(&quot;email&quot;) String email);
+<i>21</i>&nbsp;
+<i>22</i>&nbsp;    @Select(&quot;SELECT * FROM customer WHERE customer_id = #{id}&quot;)
+<i>23</i>&nbsp;    Customer findCustomerById(@Param(&quot;id&quot;) Integer id);
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;    @Select(&quot;SELECT user_name FROM customer WHERE customer_id = #{id}&quot;)
+<i>26</i>&nbsp;    String getCustomerNameById(@Param(&quot;id&quot;) int id);
+<i>27</i>&nbsp;
+<i>28</i>&nbsp;    @Select(&quot;SELECT COUNT(*) FROM customer&quot;)
+<i>29</i>&nbsp;    int getUserCount();
+<i>30</i>&nbsp;
+<i>31</i>&nbsp;    @Select(&quot;SELECT * FROM customer ORDER BY customer_Id LIMIT #{offset}, #{limit}&quot;)
+<i>32</i>&nbsp;    List&lt;Customer&gt; getUserList(@Param(&quot;offset&quot;) int offset, @Param(&quot;limit&quot;) int limit);
+<i>33</i>&nbsp;
+<i>34</i>&nbsp;    @Insert(&quot;INSERT INTO customer(email, phone_number, user_name, password, registered_time)&quot; +
+<i>35</i>&nbsp;            &quot; values (#{email}, #{phoneNumber}, #{userName}, #{password}, #{registeredTime})&quot;)
+<i>36</i>&nbsp;    @Options(keyProperty = &quot;customerId&quot;, keyColumn = &quot;customer_id&quot;, useGeneratedKeys = true)
+<i>37</i>&nbsp;    int saveNewCustomer(Customer customer);
+<i>38</i>&nbsp;
+<i>39</i>&nbsp;    @Update(&quot;UPDATE customer SET user_name = #{userName}, phone_number = #{phoneNumber} WHERE customer_id = #{id}&quot;)
+<i>40</i>&nbsp;    int saveCustomerInfo(@Param(&quot;id&quot;) String id, @Param(&quot;userName&quot;) String userName, @Param(&quot;phoneNumber&quot;) String phoneNumber);
+<i>41</i>&nbsp;
+<i>42</i>&nbsp;    @Update(&quot;UPDATE customer SET password = #{password} WHERE customer_id = #{customerId}&quot;)
+<i>43</i>&nbsp;    int saveNewPassword(Customer customer);
+<i>44</i>&nbsp;
+<i>45</i>&nbsp;    @Delete(&quot;DELETE FROM customer WHERE customer_id = #{customerId}&quot;)
+<i>46</i>&nbsp;    void deleteCustomerById(@Param(&quot;customerId&quot;) int customerId);
+<i>47</i>&nbsp;
+<i>48</i>&nbsp;    @Delete(&quot;DELETE FROM customer WHERE email = #{email}&quot;)
+<i>49</i>&nbsp;    void deleteCustomerByEmail(@Param(&quot;email&quot;) String email);
+<i>50</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

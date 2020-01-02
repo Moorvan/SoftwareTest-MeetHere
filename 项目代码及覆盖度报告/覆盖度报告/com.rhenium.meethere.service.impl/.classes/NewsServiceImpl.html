@@ -1,0 +1,198 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: NewsServiceImpl</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.service.impl</a> ]
+</div>
+
+<h1>Coverage Summary for Class: NewsServiceImpl (com.rhenium.meethere.service.impl)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">NewsServiceImpl</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (7/ 7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (26/ 26)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">NewsServiceImpl$MockitoMock$1511076296</td>
+  </tr>
+  <tr>
+    <td class="name">NewsServiceImpl$MockitoMock$1511076296$auxiliary$7B1ivHmP</td>
+  </tr>
+  <tr>
+    <td class="name">NewsServiceImpl$MockitoMock$1511076296$auxiliary$AZEiloas</td>
+  </tr>
+  <tr>
+    <td class="name">NewsServiceImpl$MockitoMock$1511076296$auxiliary$LG5FbHcO</td>
+  </tr>
+  <tr>
+    <td class="name">NewsServiceImpl$MockitoMock$1511076296$auxiliary$mVL5UhAJ</td>
+  </tr>
+  <tr>
+    <td class="name">NewsServiceImpl$MockitoMock$1511076296$auxiliary$tdYoe3FL</td>
+  </tr>
+  <tr>
+    <td class="name">NewsServiceImpl$MockitoMock$1511076296$auxiliary$UzHCOYQg</td>
+  </tr>
+  <tr>
+    <td class="name">NewsServiceImpl$MockitoMock$1511076296$auxiliary$xpFz55tV</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (7/ 7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (26/ 26)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.service.impl;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.dao.AdminDao;
+<i>4</i>&nbsp;import com.rhenium.meethere.dao.NewsDao;
+<i>5</i>&nbsp;import com.rhenium.meethere.domain.Admin;
+<i>6</i>&nbsp;import com.rhenium.meethere.domain.News;
+<i>7</i>&nbsp;import com.rhenium.meethere.dto.NewsRequest;
+<i>8</i>&nbsp;import com.rhenium.meethere.enums.ResultEnum;
+<i>9</i>&nbsp;import com.rhenium.meethere.exception.MyException;
+<i>10</i>&nbsp;import com.rhenium.meethere.service.NewsService;
+<i>11</i>&nbsp;import lombok.extern.slf4j.Slf4j;
+<i>12</i>&nbsp;import org.springframework.beans.factory.annotation.Autowired;
+<i>13</i>&nbsp;import org.springframework.stereotype.Service;
+<i>14</i>&nbsp;
+<i>15</i>&nbsp;import java.time.LocalDateTime;
+<i>16</i>&nbsp;import java.util.HashMap;
+<i>17</i>&nbsp;import java.util.List;
+<i>18</i>&nbsp;import java.util.Map;
+<i>19</i>&nbsp;
+<i>20</i>&nbsp;/**
+<i>21</i>&nbsp; * @author HavenTong
+<i>22</i>&nbsp; * @date 2019/12/16 6:04 下午
+<i>23</i>&nbsp; */
+<i>24</i>&nbsp;@Service
+<b class="fc"><i>25</i>&nbsp;@Slf4j</b>
+<b class="fc"><i>26</i>&nbsp;public class NewsServiceImpl implements NewsService {</b>
+<i>27</i>&nbsp;
+<i>28</i>&nbsp;    @Autowired
+<i>29</i>&nbsp;    private NewsDao newsDao;
+<i>30</i>&nbsp;
+<i>31</i>&nbsp;    @Autowired
+<i>32</i>&nbsp;    private AdminDao adminDao;
+<i>33</i>&nbsp;
+<i>34</i>&nbsp;    /**
+<i>35</i>&nbsp;     * @param offset 页面偏移量 必须 &gt;= 0
+<i>36</i>&nbsp;     * @param limit 每页个数 必须 &gt;= 1
+<i>37</i>&nbsp;     * @return 返回新闻条目
+<i>38</i>&nbsp;     */
+<i>39</i>&nbsp;    @Override
+<i>40</i>&nbsp;    public List&lt;News&gt; listNewsItems(int offset, int limit) {
+<b class="fc"><i>41</i>&nbsp;        if (offset &lt; 0){</b>
+<b class="fc"><i>42</i>&nbsp;            throw new MyException(ResultEnum.INVALID_OFFSET);</b>
+<i>43</i>&nbsp;        }
+<b class="fc"><i>44</i>&nbsp;        if (limit &lt; 1){</b>
+<b class="fc"><i>45</i>&nbsp;            throw new MyException(ResultEnum.INVALID_LIMIT);</b>
+<i>46</i>&nbsp;        }
+<b class="fc"><i>47</i>&nbsp;        return newsDao.findNewsByOffsetAndLimit(offset, limit);</b>
+<i>48</i>&nbsp;    }
+<i>49</i>&nbsp;
+<i>50</i>&nbsp;    @Override
+<i>51</i>&nbsp;    public void createNews(NewsRequest newsRequest) {
+<b class="fc"><i>52</i>&nbsp;        Admin admin = adminDao.findAdminById(newsRequest.getAdminId());</b>
+<b class="fc"><i>53</i>&nbsp;        if (admin == null){</b>
+<b class="fc"><i>54</i>&nbsp;            throw new MyException(ResultEnum.ADMIN_NOT_EXIST);</b>
+<i>55</i>&nbsp;        }
+<b class="fc"><i>56</i>&nbsp;        newsRequest.setNewsPostTime(LocalDateTime.now());</b>
+<b class="fc"><i>57</i>&nbsp;        newsDao.createNews(newsRequest);</b>
+<b class="fc"><i>58</i>&nbsp;    }</b>
+<i>59</i>&nbsp;
+<i>60</i>&nbsp;    @Override
+<i>61</i>&nbsp;    public void updateNews(NewsRequest newsRequest) {
+<b class="fc"><i>62</i>&nbsp;        Admin admin = adminDao.findAdminById(newsRequest.getAdminId());</b>
+<b class="fc"><i>63</i>&nbsp;        if (admin == null){</b>
+<b class="fc"><i>64</i>&nbsp;            throw new MyException(ResultEnum.ADMIN_NOT_EXIST);</b>
+<i>65</i>&nbsp;        }
+<b class="fc"><i>66</i>&nbsp;        newsDao.updateNews(newsRequest);</b>
+<b class="fc"><i>67</i>&nbsp;    }</b>
+<i>68</i>&nbsp;
+<i>69</i>&nbsp;    @Override
+<i>70</i>&nbsp;    public void deleteNews(NewsRequest newsRequest) {
+<b class="fc"><i>71</i>&nbsp;        Admin admin = adminDao.findAdminById(newsRequest.getAdminId());</b>
+<b class="fc"><i>72</i>&nbsp;        if (admin == null){</b>
+<b class="fc"><i>73</i>&nbsp;            throw new MyException(ResultEnum.ADMIN_NOT_EXIST);</b>
+<i>74</i>&nbsp;        }
+<b class="fc"><i>75</i>&nbsp;        newsDao.deleteNews(newsRequest);</b>
+<b class="fc"><i>76</i>&nbsp;    }</b>
+<i>77</i>&nbsp;
+<i>78</i>&nbsp;    @Override
+<i>79</i>&nbsp;    public Map&lt;String, String&gt; getNewsCount() {
+<b class="fc"><i>80</i>&nbsp;        Map&lt;String, String&gt; data = new HashMap&lt;&gt;();</b>
+<b class="fc"><i>81</i>&nbsp;        data.put(&quot;count&quot;, String.valueOf(newsDao.getNewsCount()));</b>
+<b class="fc"><i>82</i>&nbsp;        return data;</b>
+<i>83</i>&nbsp;    }
+<i>84</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

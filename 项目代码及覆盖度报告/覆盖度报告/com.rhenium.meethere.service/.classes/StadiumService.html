@@ -1,0 +1,84 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: StadiumService</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.service</a> ]
+</div>
+
+<h1>Coverage Summary for Class: StadiumService (com.rhenium.meethere.service)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+</tr>
+<tr>
+  <td class="name">StadiumService</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.service;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.domain.Stadium;
+<i>4</i>&nbsp;import com.rhenium.meethere.dto.CommentRequest;
+<i>5</i>&nbsp;import com.rhenium.meethere.dto.StadiumRequest;
+<i>6</i>&nbsp;
+<i>7</i>&nbsp;import java.util.ArrayList;
+<i>8</i>&nbsp;import java.util.List;
+<i>9</i>&nbsp;import java.util.Map;
+<i>10</i>&nbsp;
+<i>11</i>&nbsp;/**
+<i>12</i>&nbsp; * @author YueChen
+<i>13</i>&nbsp; * @version 1.0
+<i>14</i>&nbsp; * @date 2019/12/17 18:21
+<i>15</i>&nbsp; */
+<i>16</i>&nbsp;public interface StadiumService {
+<i>17</i>&nbsp;
+<i>18</i>&nbsp;    ArrayList&lt;Stadium&gt; listStadiumItems();
+<i>19</i>&nbsp;
+<i>20</i>&nbsp;    Map&lt;String, String&gt; getStadiumById(Integer id);
+<i>21</i>&nbsp;
+<i>22</i>&nbsp;    List&lt;Map&lt;String, Object&gt;&gt; findStadiumsForAdmin(int offset, int limit);
+<i>23</i>&nbsp;
+<i>24</i>&nbsp;    void updateStadiumInfoByAdmin(StadiumRequest stadiumRequest);
+<i>25</i>&nbsp;
+<i>26</i>&nbsp;    void deleteStadiumInfoByAdmin(StadiumRequest stadiumRequest);
+<i>27</i>&nbsp;    
+<i>28</i>&nbsp;    Map&lt;String, String&gt; getStadiumCount();
+<i>29</i>&nbsp;
+<i>30</i>&nbsp;    void deleteStadium(StadiumRequest stadiumRequest);
+<i>31</i>&nbsp;
+<i>32</i>&nbsp;    void createStadium(StadiumRequest stadiumRequest) throws Exception;
+<i>33</i>&nbsp;
+<i>34</i>&nbsp;    void updateStadium(StadiumRequest stadiumRequest);
+<i>35</i>&nbsp;
+<i>36</i>&nbsp;    List&lt;Map&lt;String, Object&gt;&gt; getStadiumTypes();
+<i>37</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,147 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: BookingDao</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.dao</a> ]
+</div>
+
+<h1>Coverage Summary for Class: BookingDao (com.rhenium.meethere.dao)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+</tr>
+  <tr>
+    <td class="name">BookingDao$MockitoMock$1735301320</td>
+  </tr>
+  <tr>
+    <td class="name">BookingDao$MockitoMock$1735301320$auxiliary$Hzao0FUz</td>
+  </tr>
+  <tr>
+    <td class="name">BookingDao$MockitoMock$1735301320$auxiliary$l4dmTYwN</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.dao;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.domain.Booking;
+<i>4</i>&nbsp;import com.rhenium.meethere.dto.BookingRequest;
+<i>5</i>&nbsp;import com.rhenium.meethere.dto.CustomerRequest;
+<i>6</i>&nbsp;import org.apache.ibatis.annotations.*;
+<i>7</i>&nbsp;import org.apache.ibatis.mapping.FetchType;
+<i>8</i>&nbsp;import org.springframework.security.core.annotation.AuthenticationPrincipal;
+<i>9</i>&nbsp;import org.springframework.security.core.parameters.P;
+<i>10</i>&nbsp;import org.springframework.stereotype.Repository;
+<i>11</i>&nbsp;import org.springframework.stereotype.Service;
+<i>12</i>&nbsp;
+<i>13</i>&nbsp;import java.math.BigDecimal;
+<i>14</i>&nbsp;import java.time.LocalDateTime;
+<i>15</i>&nbsp;import java.time.LocalTime;
+<i>16</i>&nbsp;import java.util.ArrayList;
+<i>17</i>&nbsp;import java.util.List;
+<i>18</i>&nbsp;import java.util.Map;
+<i>19</i>&nbsp;
+<i>20</i>&nbsp;/**
+<i>21</i>&nbsp; * @author JJAYCHEN
+<i>22</i>&nbsp; * @date 2019/12/19 11:00 上午
+<i>23</i>&nbsp; */
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;@Mapper
+<i>26</i>&nbsp;@Repository
+<i>27</i>&nbsp;public interface BookingDao {
+<i>28</i>&nbsp;
+<i>29</i>&nbsp;    // TODO: 可以优化一下 LIMIT
+<i>30</i>&nbsp;
+<i>31</i>&nbsp;    @Select(&quot;SELECT b.* FROM booking b ORDER BY b.booking_id LIMIT #{offset}, #{limit}&quot;)
+<i>32</i>&nbsp;    @Results({
+<i>33</i>&nbsp;            @Result(property = &quot;customerId&quot;, column = &quot;customer_id&quot;),
+<i>34</i>&nbsp;            @Result(property = &quot;stadiumId&quot;, column = &quot;stadium_id&quot;),
+<i>35</i>&nbsp;            @Result(property = &quot;customer&quot;, column = &quot;customer_id&quot;, one = @One(select=&quot;com.rhenium.meethere.dao.CustomerDao.findCustomerById&quot;, fetchType = FetchType.EAGER)),
+<i>36</i>&nbsp;            @Result(property = &quot;stadium&quot;, column = &quot;stadium_id&quot;, one = @One(select=&quot;com.rhenium.meethere.dao.StadiumDao.getStadiumById&quot;, fetchType = FetchType.EAGER))
+<i>37</i>&nbsp;    })
+<i>38</i>&nbsp;    List&lt;Booking&gt; getBookingList(@Param(&quot;offset&quot;) int offset, @Param(&quot;limit&quot;) int limit);
+<i>39</i>&nbsp;
+<i>40</i>&nbsp;    @Delete(&quot;DELETE FROM booking WHERE booking_id = #{bookingId}&quot;)
+<i>41</i>&nbsp;    void deleteBookingById(Integer bookingId);
+<i>42</i>&nbsp;
+<i>43</i>&nbsp;    @Select(&quot;SELECT COUNT(*) FROM booking&quot;)
+<i>44</i>&nbsp;    int getBookingCount();
+<i>45</i>&nbsp;
+<i>46</i>&nbsp;    @Select(&quot;SELECT COUNT(*) FROM booking WHERE start_time &lt;= #{end} &amp;&amp; end_time &gt;= #{start} &quot;)
+<i>47</i>&nbsp;    int getBookingCountBetweenStartAndEnd(@Param(&quot;start&quot;)LocalDateTime start,
+<i>48</i>&nbsp;                                          @Param(&quot;end&quot;) LocalDateTime end);
+<i>49</i>&nbsp;
+<i>50</i>&nbsp;    @Select(&quot;SELECT stadium_name AS stadiumName,  count(booking_id) AS count\n&quot; +
+<i>51</i>&nbsp;            &quot;FROM booking NATURAL JOIN stadium\n&quot; +
+<i>52</i>&nbsp;            &quot;GROUP BY stadium_name;&quot;)
+<i>53</i>&nbsp;    List&lt;Map&lt;String, Object&gt;&gt; getBookingCountGroupByStadium();
+<i>54</i>&nbsp;
+<i>55</i>&nbsp;
+<i>56</i>&nbsp;    @Select(&quot;SELECT * FROM booking WHERE stadium_id = #{stadiumId}&quot;)
+<i>57</i>&nbsp;    List&lt;Booking&gt; findBookingByStadiumId(@Param(&quot;stadiumId&quot;) int stadiumId);
+<i>58</i>&nbsp;
+<i>59</i>&nbsp;    @Select(&quot;SELECT * FROM booking WHERE booking_id = #{bookingId}&quot;)
+<i>60</i>&nbsp;    Booking getBookingByBookingId(@Param(&quot;bookingId&quot;) int bookingId);
+<i>61</i>&nbsp;
+<i>62</i>&nbsp;    @Select(&quot;SELECT * FROM booking WHERE stadium_id = #{stadiumId} AND start_time &gt;= #{start} AND end_time &lt;= #{end} &quot; +
+<i>63</i>&nbsp;            &quot;ORDER BY start_time;&quot;)
+<i>64</i>&nbsp;    ArrayList&lt;Booking&gt; getBookingsByStadiumIdAndStartAndEnd(@Param(&quot;stadiumId&quot;) int stadiumId, @Param(&quot;start&quot;)LocalDateTime start, @Param(&quot;end&quot;) LocalDateTime end);
+<i>65</i>&nbsp;
+<i>66</i>&nbsp;
+<i>67</i>&nbsp;    @Insert(&quot;INSERT INTO booking(customer_id, stadium_id, start_time, end_time, price_sum, paid) VALUES (#{customerId}, #{stadiumId}, #{startTime}, #{endTime}, #{priceSum}, #{paid})&quot;)
+<i>68</i>&nbsp;    @Options(keyProperty = &quot;bookingId&quot;, keyColumn = &quot;booking_id&quot;, useGeneratedKeys = true)
+<i>69</i>&nbsp;    int addNewBooking(Booking booking);
+<i>70</i>&nbsp;
+<i>71</i>&nbsp;    @Select(&quot;SELECT * FROM booking WHERE customer_id = #{customerId} ORDER BY start_time DESC LIMIT #{offset}, #{limit}&quot;)
+<i>72</i>&nbsp;    @Results(
+<i>73</i>&nbsp;            @Result(property = &quot;stadium&quot;, column = &quot;stadium_id&quot;,
+<i>74</i>&nbsp;            one = @One(select = &quot;com.rhenium.meethere.dao.StadiumDao.getStadiumById&quot;, fetchType = FetchType.EAGER))
+<i>75</i>&nbsp;    )
+<i>76</i>&nbsp;    List&lt;Booking&gt; findBookingsByCustomerId(@Param(&quot;offset&quot;) int offset,
+<i>77</i>&nbsp;                                           @Param(&quot;limit&quot;) int limit,
+<i>78</i>&nbsp;                                           @Param(&quot;customerId&quot;) int customerId);
+<i>79</i>&nbsp;
+<i>80</i>&nbsp;    @Select(&quot;SELECT COUNT(*) FROM booking WHERE customer_id = #{customerId}&quot;)
+<i>81</i>&nbsp;    int findBookingCountForCustomer(@Param(&quot;customerId&quot;) int customerId);
+<i>82</i>&nbsp;
+<i>83</i>&nbsp;    @Delete(&quot;DELETE a FROM booking a, (SELECT MAX(booking_id) AS max_id FROM booking) b WHERE booking_id = b.max_id&quot;)
+<i>84</i>&nbsp;    int deleteLatestBooking();
+<i>85</i>&nbsp;
+<i>86</i>&nbsp;    @Select(&quot;SELECT * FROM booking WHERE booking_id = (SELECT MAX(booking_id) FROM booking)&quot;)
+<i>87</i>&nbsp;    Booking getLatestBooking();
+<i>88</i>&nbsp;
+<i>89</i>&nbsp;    @Select(&quot;SELECT COUNT(*) FROM booking&quot;)
+<i>90</i>&nbsp;    int getAllBookingCount();
+<i>91</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

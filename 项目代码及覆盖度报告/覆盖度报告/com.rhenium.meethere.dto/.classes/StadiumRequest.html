@@ -1,0 +1,149 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: StadiumRequest</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.dto</a> ]
+</div>
+
+<h1>Coverage Summary for Class: StadiumRequest (com.rhenium.meethere.dto)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">StadiumRequest</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (13/ 13)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (13/ 13)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">StadiumRequest$StadiumRequestBuilder</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (14/ 14)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (14/ 14)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.dto;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import lombok.AllArgsConstructor;
+<i>4</i>&nbsp;import lombok.Builder;
+<i>5</i>&nbsp;import lombok.Data;
+<i>6</i>&nbsp;import org.springframework.web.multipart.MultipartFile;
+<i>7</i>&nbsp;
+<i>8</i>&nbsp;import javax.validation.constraints.Size;
+<i>9</i>&nbsp;import java.math.BigDecimal;
+<i>10</i>&nbsp;
+<i>11</i>&nbsp;/**
+<i>12</i>&nbsp; * @author YueChen
+<i>13</i>&nbsp; * @version 1.0
+<i>14</i>&nbsp; * @date 2019/12/16 23:06
+<i>15</i>&nbsp; */
+<b class="fc"><i>16</i>&nbsp;@Data</b>
+<b class="fc"><i>17</i>&nbsp;@AllArgsConstructor</b>
+<b class="fc"><i>18</i>&nbsp;@Builder</b>
+<i>19</i>&nbsp;public class StadiumRequest {
+<b class="fc"><i>20</i>&nbsp;    private Integer stadiumId;</b>
+<i>21</i>&nbsp;
+<i>22</i>&nbsp;    // 管理员才需要修改场馆信息
+<b class="fc"><i>23</i>&nbsp;    private Integer adminId;</b>
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;    @Size(max = 40, message = &quot;场馆名不能超过40字&quot;)
+<b class="fc"><i>26</i>&nbsp;    private String stadiumName;</b>
+<i>27</i>&nbsp;
+<b class="fc"><i>28</i>&nbsp;    private String typeName;</b>
+<i>29</i>&nbsp;
+<b class="fc"><i>30</i>&nbsp;    private Integer type;</b>
+<i>31</i>&nbsp;
+<i>32</i>&nbsp;    @Size(max = 100, message = &quot;位置信息不能超过100字&quot;)
+<b class="fc"><i>33</i>&nbsp;    private String location;</b>
+<i>34</i>&nbsp;
+<b class="fc"><i>35</i>&nbsp;    private String description;</b>
+<b class="fc"><i>36</i>&nbsp;    private BigDecimal price;</b>
+<b class="fc"><i>37</i>&nbsp;    private String picture;</b>
+<b class="fc"><i>38</i>&nbsp;    private String pictureRaw;</b>
+<i>39</i>&nbsp;
+<i>40</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

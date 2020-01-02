@@ -1,0 +1,274 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: CommentServiceImpl</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.service.impl</a> ]
+</div>
+
+<h1>Coverage Summary for Class: CommentServiceImpl (com.rhenium.meethere.service.impl)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CommentServiceImpl</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (9/ 9)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    98.7%
+  </span>
+  <span class="absValue">
+    (75/ 76)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">CommentServiceImpl$MockitoMock$484613947</td>
+  </tr>
+  <tr>
+    <td class="name">CommentServiceImpl$MockitoMock$484613947$auxiliary$147cwm8Z</td>
+  </tr>
+  <tr>
+    <td class="name">CommentServiceImpl$MockitoMock$484613947$auxiliary$3XbD7jyD</td>
+  </tr>
+  <tr>
+    <td class="name">CommentServiceImpl$MockitoMock$484613947$auxiliary$5GY6R6Bg</td>
+  </tr>
+  <tr>
+    <td class="name">CommentServiceImpl$MockitoMock$484613947$auxiliary$iF03bvFS</td>
+  </tr>
+  <tr>
+    <td class="name">CommentServiceImpl$MockitoMock$484613947$auxiliary$mQY7J3ct</td>
+  </tr>
+  <tr>
+    <td class="name">CommentServiceImpl$MockitoMock$484613947$auxiliary$nQDtcTVx</td>
+  </tr>
+  <tr>
+    <td class="name">CommentServiceImpl$MockitoMock$484613947$auxiliary$thJaegjx</td>
+  </tr>
+  <tr>
+    <td class="name">CommentServiceImpl$MockitoMock$484613947$auxiliary$tV9Vs8ER</td>
+  </tr>
+  <tr>
+    <td class="name">CommentServiceImpl$MockitoMock$484613947$auxiliary$wPpqH3ES</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (9/ 9)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    98.7%
+  </span>
+  <span class="absValue">
+    (75/ 76)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.service.impl;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.dao.AdminDao;
+<i>4</i>&nbsp;import com.rhenium.meethere.dao.CommentDao;
+<i>5</i>&nbsp;import com.rhenium.meethere.domain.Admin;
+<i>6</i>&nbsp;import com.rhenium.meethere.domain.Comment;
+<i>7</i>&nbsp;import com.rhenium.meethere.dto.AdminRequest;
+<i>8</i>&nbsp;import com.rhenium.meethere.dto.CommentRequest;
+<i>9</i>&nbsp;import com.rhenium.meethere.enums.LikesEnum;
+<i>10</i>&nbsp;import com.rhenium.meethere.enums.ResultEnum;
+<i>11</i>&nbsp;import com.rhenium.meethere.exception.MyException;
+<i>12</i>&nbsp;import com.rhenium.meethere.service.CommentService;
+<i>13</i>&nbsp;import lombok.extern.slf4j.Slf4j;
+<i>14</i>&nbsp;import org.springframework.beans.factory.annotation.Autowired;
+<i>15</i>&nbsp;import org.springframework.data.redis.core.StringRedisTemplate;
+<i>16</i>&nbsp;import org.springframework.stereotype.Service;
+<i>17</i>&nbsp;
+<i>18</i>&nbsp;import java.time.format.DateTimeFormatter;
+<i>19</i>&nbsp;import java.util.ArrayList;
+<i>20</i>&nbsp;import java.util.HashMap;
+<i>21</i>&nbsp;import java.util.List;
+<i>22</i>&nbsp;import java.util.Map;
+<i>23</i>&nbsp;import java.util.Objects;
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;/**
+<i>26</i>&nbsp; * @author HavenTong
+<i>27</i>&nbsp; * @date 2019/12/20 1:20 下午
+<i>28</i>&nbsp; */
+<i>29</i>&nbsp;@Service
+<b class="fc"><i>30</i>&nbsp;@Slf4j</b>
+<b class="fc"><i>31</i>&nbsp;public class CommentServiceImpl implements CommentService {</b>
+<i>32</i>&nbsp;
+<i>33</i>&nbsp;    @Autowired
+<i>34</i>&nbsp;    private StringRedisTemplate redisTemplate;
+<i>35</i>&nbsp;
+<i>36</i>&nbsp;    @Autowired
+<i>37</i>&nbsp;    private CommentDao commentDao;
+<i>38</i>&nbsp;
+<i>39</i>&nbsp;    @Autowired
+<i>40</i>&nbsp;    private AdminDao adminDao;
+<i>41</i>&nbsp;
+<i>42</i>&nbsp;    @Override
+<i>43</i>&nbsp;    public void deleteCommentByAdmin(AdminRequest adminRequest) {
+<b class="fc"><i>44</i>&nbsp;        Admin admin = adminDao.findAdminById(adminRequest.getAdminId());</b>
+<b class="fc"><i>45</i>&nbsp;        if (admin == null) {</b>
+<b class="fc"><i>46</i>&nbsp;            throw new MyException(ResultEnum.ADMIN_NOT_EXIST);</b>
+<i>47</i>&nbsp;        }
+<b class="fc"><i>48</i>&nbsp;        commentDao.deleteCommentById(adminRequest.getCommentId());</b>
+<b class="fc"><i>49</i>&nbsp;    }</b>
+<i>50</i>&nbsp;
+<i>51</i>&nbsp;    @Override
+<i>52</i>&nbsp;    public ArrayList&lt;Map&lt;String, String&gt;&gt; getCommentByStadiumId(Integer stadiumId, Integer customerId) {
+<b class="fc"><i>53</i>&nbsp;        ArrayList&lt;Comment&gt; commentList = commentDao.getCommentByStadiumId(stadiumId);</b>
+<b class="fc"><i>54</i>&nbsp;        ArrayList&lt;Map&lt;String, String&gt;&gt; comments = new ArrayList&lt;&gt;();</b>
+<b class="fc"><i>55</i>&nbsp;        for (Comment comment : commentList) {</b>
+<b class="fc"><i>56</i>&nbsp;            HashMap&lt;String, String&gt; commentMap = new HashMap&lt;&gt;();</b>
+<b class="fc"><i>57</i>&nbsp;            commentMap.put(&quot;customerId&quot;, String.valueOf(comment.getCustomer().getCustomerId()));</b>
+<b class="fc"><i>58</i>&nbsp;            commentMap.put(&quot;userName&quot;, comment.getCustomer().getUserName());</b>
+<b class="fc"><i>59</i>&nbsp;            commentMap.put(&quot;commentPostTime&quot;, comment.getCommentPostTime().format(DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm&quot;)));</b>
+<b class="fc"><i>60</i>&nbsp;            commentMap.put(&quot;commentContent&quot;, comment.getCommentContent());</b>
+<b class="fc"><i>61</i>&nbsp;            commentMap.put(&quot;likes&quot;, String.valueOf(comment.getLikes()));</b>
+<b class="fc"><i>62</i>&nbsp;            commentMap.put(&quot;commentId&quot;, String.valueOf(comment.getCommentId()));</b>
+<b class="fc"><i>63</i>&nbsp;            String hashName = &quot;comment:likes&quot;;</b>
+<b class="fc"><i>64</i>&nbsp;            String key = comment.getCommentId() + &quot;:&quot; + customerId;</b>
+<b class="fc"><i>65</i>&nbsp;            String liked = (String) redisTemplate.opsForHash().get(hashName, key);</b>
+<b class="fc"><i>66</i>&nbsp;            if (Objects.isNull(liked)){</b>
+<b class="fc"><i>67</i>&nbsp;                commentMap.put(&quot;liked&quot;, &quot;0&quot;);</b>
+<i>68</i>&nbsp;            } else {
+<b class="nc"><i>69</i>&nbsp;                commentMap.put(&quot;liked&quot;, &quot;1&quot;);</b>
+<i>70</i>&nbsp;            }
+<b class="fc"><i>71</i>&nbsp;            comments.add(commentMap);</b>
+<b class="fc"><i>72</i>&nbsp;        }</b>
+<b class="fc"><i>73</i>&nbsp;        return comments;</b>
+<i>74</i>&nbsp;    }
+<i>75</i>&nbsp;
+<i>76</i>&nbsp;    @Override
+<i>77</i>&nbsp;    public void addNewComment(CommentRequest commentRequest) {
+<b class="fc"><i>78</i>&nbsp;        Comment comment = new Comment();</b>
+<b class="fc"><i>79</i>&nbsp;        comment.setStadiumId(commentRequest.getStadiumId());</b>
+<b class="fc"><i>80</i>&nbsp;        comment.setCustomerId(commentRequest.getCustomerId());</b>
+<b class="fc"><i>81</i>&nbsp;        comment.setCommentContent(commentRequest.getCommentContent());</b>
+<b class="fc"><i>82</i>&nbsp;        commentDao.addNewComment(comment);</b>
+<b class="fc"><i>83</i>&nbsp;    }</b>
+<i>84</i>&nbsp;
+<i>85</i>&nbsp;    @Override
+<i>86</i>&nbsp;    public void deleteCommentByCustomer(CommentRequest commentRequest) {
+<b class="fc"><i>87</i>&nbsp;        int commentId = commentRequest.getCommentId();</b>
+<b class="fc"><i>88</i>&nbsp;        Comment comment = commentDao.getCommentByCommentId(commentId);</b>
+<b class="fc"><i>89</i>&nbsp;        if(comment.getCustomerId().equals(commentRequest.getCustomerId())) {</b>
+<b class="fc"><i>90</i>&nbsp;            commentDao.deleteCommentById(commentRequest.getCommentId());</b>
+<i>91</i>&nbsp;        } else {
+<b class="fc"><i>92</i>&nbsp;            throw new MyException(ResultEnum.DELETE_COMMENT_IS_NOT_USERS);</b>
+<i>93</i>&nbsp;        }
+<b class="fc"><i>94</i>&nbsp;    }</b>
+<i>95</i>&nbsp;
+<i>96</i>&nbsp;    @Override
+<i>97</i>&nbsp;    public List&lt;Map&lt;String, String&gt;&gt; getCommentList(int offset, int limit) {
+<b class="fc"><i>98</i>&nbsp;        if (offset &lt; 0) {</b>
+<b class="fc"><i>99</i>&nbsp;            throw new MyException(ResultEnum.INVALID_OFFSET);</b>
+<i>100</i>&nbsp;        }
+<b class="fc"><i>101</i>&nbsp;        if (limit &lt; 1) {</b>
+<b class="fc"><i>102</i>&nbsp;            throw new MyException(ResultEnum.INVALID_LIMIT);</b>
+<i>103</i>&nbsp;        }
+<b class="fc"><i>104</i>&nbsp;        List&lt;Comment&gt; commentList = commentDao.getCommentList(offset, limit);</b>
+<b class="fc"><i>105</i>&nbsp;        List&lt;Map&lt;String, String&gt;&gt; data = new ArrayList&lt;&gt;();</b>
+<i>106</i>&nbsp;
+<b class="fc"><i>107</i>&nbsp;        for (Comment comment : commentList) {</b>
+<b class="fc"><i>108</i>&nbsp;            Map&lt;String, String&gt; commentItem = new HashMap&lt;&gt;();</b>
+<b class="fc"><i>109</i>&nbsp;            commentItem.put(&quot;commentId&quot;, String.valueOf(comment.getCommentId()));</b>
+<b class="fc"><i>110</i>&nbsp;            commentItem.put(&quot;commentPostTime&quot;, comment.getCommentPostTime().format(DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm:ss&quot;)));</b>
+<b class="fc"><i>111</i>&nbsp;            commentItem.put(&quot;commentContent&quot;, comment.getCommentContent());</b>
+<b class="fc"><i>112</i>&nbsp;            commentItem.put(&quot;likes&quot;, String.valueOf(comment.getLikes()));</b>
+<b class="fc"><i>113</i>&nbsp;            commentItem.put(&quot;customerId&quot;, String.valueOf(comment.getCustomerId()));</b>
+<b class="fc"><i>114</i>&nbsp;            commentItem.put(&quot;stadiumId&quot;, String.valueOf(comment.getStadiumId()));</b>
+<b class="fc"><i>115</i>&nbsp;            commentItem.put(&quot;customerName&quot;, comment.getCustomer().getUserName());</b>
+<b class="fc"><i>116</i>&nbsp;            commentItem.put(&quot;stadiumName&quot;, comment.getStadium().getStadiumName());</b>
+<i>117</i>&nbsp;
+<b class="fc"><i>118</i>&nbsp;            data.add(commentItem);</b>
+<b class="fc"><i>119</i>&nbsp;        }</b>
+<b class="fc"><i>120</i>&nbsp;        return data;</b>
+<i>121</i>&nbsp;    }
+<i>122</i>&nbsp;
+<i>123</i>&nbsp;    @Override
+<i>124</i>&nbsp;    public Map&lt;String, String&gt; getCommentCount() {
+<b class="fc"><i>125</i>&nbsp;        Map&lt;String, String&gt; data = new HashMap&lt;&gt;();</b>
+<b class="fc"><i>126</i>&nbsp;        data.put(&quot;count&quot;, String.valueOf(commentDao.getCommentCount()));</b>
+<b class="fc"><i>127</i>&nbsp;        return data;</b>
+<i>128</i>&nbsp;    }
+<i>129</i>&nbsp;
+<i>130</i>&nbsp;    @Override
+<i>131</i>&nbsp;    public void updateLikes(CommentRequest commentRequest) {
+<b class="fc"><i>132</i>&nbsp;        if (Objects.isNull(commentRequest.getCommentId())){</b>
+<b class="fc"><i>133</i>&nbsp;            throw new MyException(ResultEnum.COMMENT_NOT_EXIST);</b>
+<i>134</i>&nbsp;        }
+<b class="fc"><i>135</i>&nbsp;        int customerId = commentRequest.getCustomerId();</b>
+<b class="fc"><i>136</i>&nbsp;        int commentId = commentRequest.getCommentId();</b>
+<b class="fc"><i>137</i>&nbsp;        Comment comment = commentDao.getCommentByCommentId(commentId);</b>
+<b class="fc"><i>138</i>&nbsp;        if (comment == null){</b>
+<b class="fc"><i>139</i>&nbsp;            throw new MyException(ResultEnum.COMMENT_NOT_EXIST);</b>
+<i>140</i>&nbsp;        }
+<b class="fc"><i>141</i>&nbsp;        String hashName = &quot;comment:likes&quot;;</b>
+<b class="fc"><i>142</i>&nbsp;        String key = commentId + &quot;:&quot; + customerId;</b>
+<b class="fc"><i>143</i>&nbsp;        String liked = (String) redisTemplate.opsForHash().get(hashName, key);</b>
+<i>144</i>&nbsp;        // 还未点赞
+<b class="fc"><i>145</i>&nbsp;        if (Objects.isNull(liked)){</b>
+<b class="fc"><i>146</i>&nbsp;            redisTemplate.opsForHash().put(hashName, key, LikesEnum.LIKED.getCode().toString());</b>
+<b class="fc"><i>147</i>&nbsp;            commentDao.increaseLikesById(commentId);</b>
+<i>148</i>&nbsp;        } else {
+<i>149</i>&nbsp;            // 已点赞
+<b class="fc"><i>150</i>&nbsp;            redisTemplate.opsForHash().delete(hashName, key);</b>
+<b class="fc"><i>151</i>&nbsp;            commentDao.decreaseLikesById(commentId);</b>
+<i>152</i>&nbsp;        }
+<b class="fc"><i>153</i>&nbsp;    }</b>
+<i>154</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

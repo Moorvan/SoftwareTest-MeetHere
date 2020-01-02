@@ -1,0 +1,123 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: CommentDao</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.dao</a> ]
+</div>
+
+<h1>Coverage Summary for Class: CommentDao (com.rhenium.meethere.dao)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+</tr>
+  <tr>
+    <td class="name">CommentDao$MockitoMock$1561890506</td>
+  </tr>
+  <tr>
+    <td class="name">CommentDao$MockitoMock$1561890506$auxiliary$FMDH9Q4o</td>
+  </tr>
+  <tr>
+    <td class="name">CommentDao$MockitoMock$1561890506$auxiliary$Xzb8nNvM</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.dao;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.domain.Booking;
+<i>4</i>&nbsp;import com.rhenium.meethere.domain.Comment;
+<i>5</i>&nbsp;import org.apache.ibatis.annotations.*;
+<i>6</i>&nbsp;import org.apache.ibatis.mapping.FetchType;
+<i>7</i>&nbsp;import org.springframework.stereotype.Repository;
+<i>8</i>&nbsp;
+<i>9</i>&nbsp;import java.util.ArrayList;
+<i>10</i>&nbsp;import java.util.List;
+<i>11</i>&nbsp;
+<i>12</i>&nbsp;/**
+<i>13</i>&nbsp; * @author YueChen
+<i>14</i>&nbsp; * @version 1.0
+<i>15</i>&nbsp; * @date 2019/12/18 20:01
+<i>16</i>&nbsp; */
+<i>17</i>&nbsp;@Repository
+<i>18</i>&nbsp;@Mapper
+<i>19</i>&nbsp;public interface CommentDao {
+<i>20</i>&nbsp;//    @Select(&quot;SELECT comment.customer_id, comment_post_time, comment_content, likes, user_name &quot; +
+<i>21</i>&nbsp;//            &quot;FROM comment, customer &quot; +
+<i>22</i>&nbsp;//            &quot;WHERE comment.customer_id = customer.customer_id AND comment.stadium_id = #{stadiumId} &quot; +
+<i>23</i>&nbsp;//            &quot;ORDER BY comment_post_time DESC &quot;)
+<i>24</i>&nbsp;//    ArrayList&lt;Comment&gt; getCommentByStadiumId(@Param(&quot;stadiumId&quot;) Integer id);
+<i>25</i>&nbsp;
+<i>26</i>&nbsp;    @Select(&quot;SELECT *&quot; +
+<i>27</i>&nbsp;            &quot;FROM comment &quot; +
+<i>28</i>&nbsp;            &quot;WHERE stadium_id = #{stadiumId}&quot;)
+<i>29</i>&nbsp;    @Results({@Result(property = &quot;customer&quot;, column = &quot;customer_id&quot;,
+<i>30</i>&nbsp;              one = @One(select = &quot;com.rhenium.meethere.dao.CustomerDao.findCustomerById&quot;))})
+<i>31</i>&nbsp;    ArrayList&lt;Comment&gt; getCommentByStadiumId(@Param(&quot;stadiumId&quot;) Integer id);
+<i>32</i>&nbsp;
+<i>33</i>&nbsp;    @Insert(&quot;INSERT INTO comment(stadium_id, customer_id, comment_content) &quot; +
+<i>34</i>&nbsp;            &quot;VALUES (#{stadiumId}, #{customerId}, #{commentContent})&quot;)
+<i>35</i>&nbsp;    @Options(keyProperty = &quot;commentId&quot;, keyColumn = &quot;comment_id&quot;, useGeneratedKeys = true)
+<i>36</i>&nbsp;    int addNewComment(Comment comment);
+<i>37</i>&nbsp;
+<i>38</i>&nbsp;    @Delete(&quot;DELETE FROM comment WHERE comment_id = #{commentId}&quot;)
+<i>39</i>&nbsp;    void deleteCommentById(@Param(&quot;commentId&quot;) int commentId);
+<i>40</i>&nbsp;
+<i>41</i>&nbsp;    @Select(&quot;SELECT COUNT(*) FROM comment&quot;)
+<i>42</i>&nbsp;    int getCommentCount();
+<i>43</i>&nbsp;
+<i>44</i>&nbsp;    @Select(&quot;SELECT comment.* FROM comment ORDER BY comment.comment_id LIMIT #{offset}, #{limit}&quot;)
+<i>45</i>&nbsp;    @Results({
+<i>46</i>&nbsp;            @Result(property = &quot;customerId&quot;, column = &quot;customer_id&quot;),
+<i>47</i>&nbsp;            @Result(property = &quot;stadiumId&quot;, column = &quot;stadium_id&quot;),
+<i>48</i>&nbsp;            @Result(property = &quot;customer&quot;, column = &quot;customer_id&quot;, one = @One(select=&quot;com.rhenium.meethere.dao.CustomerDao.findCustomerById&quot;, fetchType = FetchType.EAGER)),
+<i>49</i>&nbsp;            @Result(property = &quot;stadium&quot;, column = &quot;stadium_id&quot;, one = @One(select=&quot;com.rhenium.meethere.dao.StadiumDao.getStadiumById&quot;, fetchType = FetchType.EAGER))
+<i>50</i>&nbsp;    })
+<i>51</i>&nbsp;    List&lt;Comment&gt; getCommentList(@Param(&quot;offset&quot;) int offset, @Param(&quot;limit&quot;) int limit);
+<i>52</i>&nbsp;
+<i>53</i>&nbsp;    @Update(&quot;UPDATE comment SET likes = likes + 1 WHERE comment_id = #{commentId}&quot;)
+<i>54</i>&nbsp;    int increaseLikesById(@Param(&quot;commentId&quot;) int commentId);
+<i>55</i>&nbsp;
+<i>56</i>&nbsp;    @Update(&quot;UPDATE comment SET likes = likes - 1 WHERE comment_id = #{commentId}&quot;)
+<i>57</i>&nbsp;    int decreaseLikesById(@Param(&quot;commentId&quot;) int commentId);
+<i>58</i>&nbsp;
+<i>59</i>&nbsp;    @Select(&quot;SELECT * FROM comment WHERE comment_id = #{commentId}&quot;)
+<i>60</i>&nbsp;    Comment getCommentByCommentId(@Param(&quot;commentId&quot;) int commentId);
+<i>61</i>&nbsp;
+<i>62</i>&nbsp;    @Delete(&quot;DELETE a FROM comment a, (SELECT MAX(comment_id) AS max_id FROM comment) b WHERE comment_id = b.max_id&quot;)
+<i>63</i>&nbsp;    int deleteLatestComment();
+<i>64</i>&nbsp;
+<i>65</i>&nbsp;    @Select(&quot;SELECT likes FROM comment WHERE comment_id = #{commentId}&quot;)
+<i>66</i>&nbsp;    int getLikesByCommentId(@Param(&quot;commentId&quot;) int commentId);
+<i>67</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

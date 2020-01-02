@@ -1,0 +1,152 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: UserLoginVerificationAspect</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.aop</a> ]
+</div>
+
+<h1>Coverage Summary for Class: UserLoginVerificationAspect (com.rhenium.meethere.aop)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">UserLoginVerificationAspect</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    75%
+  </span>
+  <span class="absValue">
+    (3/ 4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    96.6%
+  </span>
+  <span class="absValue">
+    (28/ 29)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.aop;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.dto.CustomerRequest;
+<i>4</i>&nbsp;import com.rhenium.meethere.enums.ResultEnum;
+<i>5</i>&nbsp;import com.rhenium.meethere.exception.MyException;
+<i>6</i>&nbsp;import com.rhenium.meethere.util.JwtUtil;
+<i>7</i>&nbsp;import io.jsonwebtoken.Claims;
+<i>8</i>&nbsp;import lombok.extern.slf4j.Slf4j;
+<i>9</i>&nbsp;import org.aspectj.lang.JoinPoint;
+<i>10</i>&nbsp;import org.aspectj.lang.annotation.Aspect;
+<i>11</i>&nbsp;import org.aspectj.lang.annotation.Before;
+<i>12</i>&nbsp;import org.aspectj.lang.annotation.Pointcut;
+<i>13</i>&nbsp;import org.springframework.stereotype.Component;
+<i>14</i>&nbsp;import org.springframework.util.StringUtils;
+<i>15</i>&nbsp;import org.springframework.web.context.request.RequestAttributes;
+<i>16</i>&nbsp;import org.springframework.web.context.request.RequestContextHolder;
+<i>17</i>&nbsp;import org.springframework.web.context.request.ServletRequestAttributes;
+<i>18</i>&nbsp;
+<i>19</i>&nbsp;import javax.servlet.http.HttpServletRequest;
+<i>20</i>&nbsp;import java.lang.reflect.Field;
+<i>21</i>&nbsp;import java.util.Objects;
+<i>22</i>&nbsp;
+<i>23</i>&nbsp;/**
+<i>24</i>&nbsp; * @author HavenTong
+<i>25</i>&nbsp; * @date 2019/12/14 11:29 上午
+<i>26</i>&nbsp; * 通过aop进行全局拦截，必须要保证HTTP头部中的TOKEN字段中携带的id
+<i>27</i>&nbsp; * 与传入的CustomerRequest中的customerId相匹配才可以进入相应的controller
+<i>28</i>&nbsp; */
+<i>29</i>&nbsp;@Aspect
+<i>30</i>&nbsp;@Component
+<b class="fc"><i>31</i>&nbsp;@Slf4j</b>
+<b class="fc"><i>32</i>&nbsp;public class UserLoginVerificationAspect {</b>
+<i>33</i>&nbsp;    @Pointcut(&quot;@annotation(com.rhenium.meethere.annotation.UserLoginRequired)&quot;)
+<b class="nc"><i>34</i>&nbsp;    public void verifyUserLoginPoint(){}</b>
+<i>35</i>&nbsp;
+<i>36</i>&nbsp;    @Before(&quot;verifyUserLoginPoint()&quot;)
+<i>37</i>&nbsp;    public void verifyUserLogin(JoinPoint joinPoint) throws IllegalAccessException {
+<b class="fc"><i>38</i>&nbsp;        RequestAttributes ra = RequestContextHolder.getRequestAttributes();</b>
+<b class="fc"><i>39</i>&nbsp;        ServletRequestAttributes sra = (ServletRequestAttributes) ra;</b>
+<b class="fc"><i>40</i>&nbsp;        HttpServletRequest httpServletRequest = sra.getRequest();</b>
+<b class="fc"><i>41</i>&nbsp;        String token = httpServletRequest.getHeader(&quot;TOKEN&quot;);</b>
+<b class="fc"><i>42</i>&nbsp;        String method = httpServletRequest.getMethod();</b>
+<b class="fc"><i>43</i>&nbsp;        if (StringUtils.isEmpty(token)){</b>
+<b class="fc"><i>44</i>&nbsp;            throw new MyException(ResultEnum.TOKEN_NOT_EXIST);</b>
+<i>45</i>&nbsp;        }
+<b class="fc"><i>46</i>&nbsp;        Claims claims = JwtUtil.parseJwt(token);</b>
+<b class="fc"><i>47</i>&nbsp;        Integer decodedCustomerId = Integer.parseInt(claims.getId());</b>
+<b class="fc"><i>48</i>&nbsp;        Integer actualCustomerId = -1;</b>
+<b class="fc"><i>49</i>&nbsp;        Object[] arguments = joinPoint.getArgs();</b>
+<b class="fc"><i>50</i>&nbsp;        if (&quot;POST&quot;.equals(method)){</b>
+<b class="fc"><i>51</i>&nbsp;            Object argument = arguments[0];</b>
+<b class="fc"><i>52</i>&nbsp;            Field[] fields = argument.getClass().getDeclaredFields();</b>
+<b class="fc"><i>53</i>&nbsp;            for (Field field : fields){</b>
+<b class="fc"><i>54</i>&nbsp;                field.setAccessible(true);</b>
+<b class="fc"><i>55</i>&nbsp;                if (&quot;customerId&quot;.equals(field.getName())){</b>
+<b class="fc"><i>56</i>&nbsp;                    actualCustomerId = (Integer) field.get(argument);</b>
+<b class="fc"><i>57</i>&nbsp;                    log.info(&quot;actual: {}&quot;, actualCustomerId);</b>
+<b class="fc"><i>58</i>&nbsp;                    break;</b>
+<i>59</i>&nbsp;                }
+<i>60</i>&nbsp;            }
+<b class="fc"><i>61</i>&nbsp;        } else if (&quot;GET&quot;.equals(method)){</b>
+<b class="fc"><i>62</i>&nbsp;            actualCustomerId = (Integer) arguments[arguments.length - 1];</b>
+<i>63</i>&nbsp;        }
+<b class="fc"><i>64</i>&nbsp;        if (!decodedCustomerId.equals(actualCustomerId)){</b>
+<b class="fc"><i>65</i>&nbsp;            log.info(&quot;not equals: actualId: {}&quot;, actualCustomerId);</b>
+<b class="fc"><i>66</i>&nbsp;            throw new MyException(ResultEnum.TOKEN_NOT_MATCH);</b>
+<i>67</i>&nbsp;        }
+<b class="fc"><i>68</i>&nbsp;    }</b>
+<i>69</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

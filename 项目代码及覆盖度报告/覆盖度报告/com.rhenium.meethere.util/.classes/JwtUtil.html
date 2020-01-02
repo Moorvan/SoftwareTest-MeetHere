@@ -1,0 +1,163 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: JwtUtil</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.util</a> ]
+</div>
+
+<h1>Coverage Summary for Class: JwtUtil (com.rhenium.meethere.util)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">JwtUtil</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    83.3%
+  </span>
+  <span class="absValue">
+    (5/ 6)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    88.5%
+  </span>
+  <span class="absValue">
+    (23/ 26)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.util;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.domain.Admin;
+<i>4</i>&nbsp;import com.rhenium.meethere.domain.Customer;
+<i>5</i>&nbsp;import com.rhenium.meethere.enums.ResultEnum;
+<i>6</i>&nbsp;import com.rhenium.meethere.exception.MyException;
+<i>7</i>&nbsp;import io.jsonwebtoken.*;
+<i>8</i>&nbsp;import lombok.extern.slf4j.Slf4j;
+<i>9</i>&nbsp;import org.springframework.util.StringUtils;
+<i>10</i>&nbsp;import org.springframework.web.context.request.RequestAttributes;
+<i>11</i>&nbsp;import org.springframework.web.context.request.RequestContextHolder;
+<i>12</i>&nbsp;import org.springframework.web.context.request.ServletRequestAttributes;
+<i>13</i>&nbsp;
+<i>14</i>&nbsp;import javax.servlet.http.HttpServletRequest;
+<i>15</i>&nbsp;import java.util.Date;
+<i>16</i>&nbsp;
+<i>17</i>&nbsp;/**
+<i>18</i>&nbsp; * @author HavenTong
+<i>19</i>&nbsp; * @date 2019/12/14 11:10 上午
+<i>20</i>&nbsp; * 创建和解析JWT的工具类
+<i>21</i>&nbsp; */
+<b class="fc"><i>22</i>&nbsp;@Slf4j</b>
+<b class="nc"><i>23</i>&nbsp;public class JwtUtil {</b>
+<i>24</i>&nbsp;    private static final String KEY = &quot;meethere&quot;;
+<i>25</i>&nbsp;    private static final long ttl = 60 * 60 * 24 * 1000 * 24;
+<i>26</i>&nbsp;
+<i>27</i>&nbsp;    /**
+<i>28</i>&nbsp;     * 通过customer生成JWT
+<i>29</i>&nbsp;     * @param customer Customer类型的参数，登录时将customerId编码到JWT中返回
+<i>30</i>&nbsp;     * @return 返回通过customerId生成的JWT
+<i>31</i>&nbsp;     */
+<i>32</i>&nbsp;    public static String createJwt(Customer customer){
+<b class="fc"><i>33</i>&nbsp;        long current = System.currentTimeMillis();</b>
+<b class="fc"><i>34</i>&nbsp;        JwtBuilder builder = Jwts.builder()</b>
+<b class="fc"><i>35</i>&nbsp;                .setId(customer.getCustomerId().toString())</b>
+<b class="fc"><i>36</i>&nbsp;                .setIssuedAt(new Date(current))</b>
+<b class="fc"><i>37</i>&nbsp;                .signWith(SignatureAlgorithm.HS256, KEY)</b>
+<b class="fc"><i>38</i>&nbsp;                .setExpiration(new Date(current + ttl));</b>
+<b class="fc"><i>39</i>&nbsp;        return builder.compact();</b>
+<i>40</i>&nbsp;    }
+<i>41</i>&nbsp;
+<i>42</i>&nbsp;    /**
+<i>43</i>&nbsp;     * 通过Admin生成JWT
+<i>44</i>&nbsp;     * @param admin Admin类型的参数，登录时将adminId编码到JWT中返回
+<i>45</i>&nbsp;     * @return 返回通过adminId生成的JWT
+<i>46</i>&nbsp;     */
+<i>47</i>&nbsp;    public static String createJwt(Admin admin){
+<b class="fc"><i>48</i>&nbsp;        long current = System.currentTimeMillis();</b>
+<b class="fc"><i>49</i>&nbsp;        JwtBuilder builder = Jwts.builder()</b>
+<b class="fc"><i>50</i>&nbsp;                .setId(admin.getAdminId().toString())</b>
+<b class="fc"><i>51</i>&nbsp;                .setIssuedAt(new Date(current))</b>
+<b class="fc"><i>52</i>&nbsp;                .signWith(SignatureAlgorithm.HS256, KEY)</b>
+<b class="fc"><i>53</i>&nbsp;                .setExpiration(new Date(current + ttl));</b>
+<b class="fc"><i>54</i>&nbsp;        return builder.compact();</b>
+<i>55</i>&nbsp;    }
+<i>56</i>&nbsp;
+<i>57</i>&nbsp;    /**
+<i>58</i>&nbsp;     * 解析JWT，解析失败则抛出自定义异常，提示&quot;TOKEN错误，无法解析&quot;
+<i>59</i>&nbsp;     * @param jwt JWT字符串
+<i>60</i>&nbsp;     * @return 解析后的body
+<i>61</i>&nbsp;     */
+<i>62</i>&nbsp;    public static Claims parseJwt(String jwt){
+<i>63</i>&nbsp;        try {
+<b class="fc"><i>64</i>&nbsp;            return Jwts.parser().setSigningKey(KEY).parseClaimsJws(jwt).getBody();</b>
+<b class="nc"><i>65</i>&nbsp;        } catch (Exception ex){</b>
+<b class="nc"><i>66</i>&nbsp;            throw new MyException(ResultEnum.INVALID_TOKEN);</b>
+<i>67</i>&nbsp;        }
+<i>68</i>&nbsp;    }
+<i>69</i>&nbsp;
+<i>70</i>&nbsp;    public static String getToken(){
+<b class="fc"><i>71</i>&nbsp;        RequestAttributes requestAttributes = RequestContextHolder.getRequestAttributes();</b>
+<b class="fc"><i>72</i>&nbsp;        ServletRequestAttributes servletRequestAttributes = (ServletRequestAttributes) requestAttributes;</b>
+<b class="fc"><i>73</i>&nbsp;        HttpServletRequest httpServletRequest = servletRequestAttributes.getRequest();</b>
+<b class="fc"><i>74</i>&nbsp;        String token = httpServletRequest.getHeader(&quot;TOKEN&quot;);</b>
+<b class="fc"><i>75</i>&nbsp;        if (StringUtils.isEmpty(token)){</b>
+<b class="fc"><i>76</i>&nbsp;            throw new MyException(ResultEnum.TOKEN_NOT_EXIST);</b>
+<i>77</i>&nbsp;        }
+<b class="fc"><i>78</i>&nbsp;        return token;</b>
+<i>79</i>&nbsp;    }
+<i>80</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

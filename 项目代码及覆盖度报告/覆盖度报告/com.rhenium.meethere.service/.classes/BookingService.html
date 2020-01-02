@@ -1,0 +1,86 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: BookingService</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.service</a> ]
+</div>
+
+<h1>Coverage Summary for Class: BookingService (com.rhenium.meethere.service)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+</tr>
+  <tr>
+    <td class="name">BookingService$MockitoMock$1353367432</td>
+  </tr>
+  <tr>
+    <td class="name">BookingService$MockitoMock$1353367432$auxiliary$73Fd1H1R</td>
+  </tr>
+  <tr>
+    <td class="name">BookingService$MockitoMock$1353367432$auxiliary$AycaGQhZ</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.service;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.domain.Booking;
+<i>4</i>&nbsp;import com.rhenium.meethere.dto.BookingRequest;
+<i>5</i>&nbsp;import org.springframework.stereotype.Service;
+<i>6</i>&nbsp;
+<i>7</i>&nbsp;import java.awt.print.Book;
+<i>8</i>&nbsp;import java.util.ArrayList;
+<i>9</i>&nbsp;import java.util.List;
+<i>10</i>&nbsp;import java.util.Map;
+<i>11</i>&nbsp;
+<i>12</i>&nbsp;/**
+<i>13</i>&nbsp; * @author YueChen
+<i>14</i>&nbsp; * @version 1.0
+<i>15</i>&nbsp; * @date 2019/12/24 12:43
+<i>16</i>&nbsp; */
+<i>17</i>&nbsp;@Service
+<i>18</i>&nbsp;public interface BookingService {
+<i>19</i>&nbsp;    ArrayList&lt;Map&lt;String, Integer&gt;&gt; getEmptyTimeByStadiumIdAndDate(Integer stadiumId, Integer DaysAfterToday);
+<i>20</i>&nbsp;
+<i>21</i>&nbsp;    void addNewBooking(BookingRequest bookingRequest);
+<i>22</i>&nbsp;
+<i>23</i>&nbsp;    List&lt;Map&lt;String, Object&gt;&gt; getBookingsByCustomer(int offset, int limit, int customerId);
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;    void deleteBookingByCustomer(BookingRequest bookingRequest);
+<i>26</i>&nbsp;
+<i>27</i>&nbsp;    void updateBooking(BookingRequest bookingRequest);
+<i>28</i>&nbsp;
+<i>29</i>&nbsp;    Map&lt;String, Object&gt; getBookingCountForCustomer(int customerId);
+<i>30</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

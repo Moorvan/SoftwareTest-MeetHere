@@ -1,0 +1,131 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: StadiumDao</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.dao</a> ]
+</div>
+
+<h1>Coverage Summary for Class: StadiumDao (com.rhenium.meethere.dao)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+</tr>
+  <tr>
+    <td class="name">StadiumDao$MockitoMock$1253093239</td>
+  </tr>
+  <tr>
+    <td class="name">StadiumDao$MockitoMock$1253093239$auxiliary$6P53hyMw</td>
+  </tr>
+  <tr>
+    <td class="name">StadiumDao$MockitoMock$1253093239$auxiliary$L2Sc5mea</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.dao;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.domain.Stadium;
+<i>4</i>&nbsp;import com.rhenium.meethere.dto.AdminRequest;
+<i>5</i>&nbsp;import com.rhenium.meethere.dto.StadiumRequest;
+<i>6</i>&nbsp;import org.apache.ibatis.annotations.*;
+<i>7</i>&nbsp;import org.apache.ibatis.mapping.FetchType;
+<i>8</i>&nbsp;import org.springframework.stereotype.Repository;
+<i>9</i>&nbsp;
+<i>10</i>&nbsp;import javax.validation.constraints.Pattern;
+<i>11</i>&nbsp;import java.util.ArrayList;
+<i>12</i>&nbsp;import java.util.List;
+<i>13</i>&nbsp;
+<i>14</i>&nbsp;/**
+<i>15</i>&nbsp; * @author YueChen
+<i>16</i>&nbsp; * @version 1.0
+<i>17</i>&nbsp; * @date 2019/12/16 19:36
+<i>18</i>&nbsp; */
+<i>19</i>&nbsp;@Repository
+<i>20</i>&nbsp;@Mapper
+<i>21</i>&nbsp;public interface StadiumDao {
+<i>22</i>&nbsp;    @Select(&quot;SELECT stadium_id, stadium_name, description, picture FROM stadium&quot;)
+<i>23</i>&nbsp;    ArrayList&lt;Stadium&gt; getStadiumList();
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;    @Select(&quot;SELECT * FROM stadium WHERE stadium_id = #{id}&quot;)
+<i>26</i>&nbsp;    Stadium getStadiumById(@Param(&quot;id&quot;) Integer stadiumId);
+<i>27</i>&nbsp;
+<i>28</i>&nbsp;    @Select(&quot;SELECT stadium.stadium_name FROM stadium WHERE stadium_id = #{id}&quot;)
+<i>29</i>&nbsp;    String getStadiumNameById(@Param(&quot;id&quot;) Integer id);
+<i>30</i>&nbsp;
+<i>31</i>&nbsp;    @Select(&quot;SELECT * FROM stadium LIMIT #{offset}, #{limit}&quot;)
+<i>32</i>&nbsp;    @Results({
+<i>33</i>&nbsp;            @Result(property = &quot;stadiumId&quot;, column = &quot;stadium_id&quot;),
+<i>34</i>&nbsp;            @Result(property = &quot;bookingList&quot;, column = &quot;stadium_id&quot;,
+<i>35</i>&nbsp;            many = @Many(select = &quot;com.rhenium.meethere.dao.BookingDao.findBookingByStadiumId&quot;, fetchType = FetchType.EAGER))
+<i>36</i>&nbsp;    })
+<i>37</i>&nbsp;    List&lt;Stadium&gt; findAllStadiumsForAdmin(@Param(&quot;offset&quot;) int offset,
+<i>38</i>&nbsp;                                          @Param(&quot;limit&quot;) int limit);
+<i>39</i>&nbsp;
+<i>40</i>&nbsp;    @Update(&quot;UPDATE stadium SET stadium_name = #{stadiumName}, &quot; +
+<i>41</i>&nbsp;            &quot;location = #{location}, description = #{description}, &quot; +
+<i>42</i>&nbsp;            &quot;price = #{price} WHERE stadium_id = #{stadiumId}&quot;)
+<i>43</i>&nbsp;    int updateStadiumInfoByAdmin(StadiumRequest stadiumRequest);
+<i>44</i>&nbsp;
+<i>45</i>&nbsp;    @Delete(&quot;DELETE FROM stadium WHERE stadium_id = #{stadiumId}&quot;)
+<i>46</i>&nbsp;    int deleteStadiumByAdmin(StadiumRequest stadiumRequest);
+<i>47</i>&nbsp;
+<i>48</i>&nbsp;    @Select(&quot;SELECT COUNT(*) FROM stadium&quot;)
+<i>49</i>&nbsp;    int getStadiumCount();
+<i>50</i>&nbsp;
+<i>51</i>&nbsp;    @Delete(&quot;DELETE FROM stadium WHERE stadium_id = #{stadiumId}&quot;)
+<i>52</i>&nbsp;    void deleteStadium(StadiumRequest stadiumRequest);
+<i>53</i>&nbsp;
+<i>54</i>&nbsp;    @Insert(&quot;INSERT INTO stadium (stadium_name, type, location, description, price, picture) &quot; +
+<i>55</i>&nbsp;            &quot;VALUES (#{stadiumName}, #{type}, #{location}, #{description}, #{price}, #{picture})&quot;)
+<i>56</i>&nbsp;    void createStadium(StadiumRequest stadiumRequest);
+<i>57</i>&nbsp;
+<i>58</i>&nbsp;    @Insert(&quot;UPDATE stadium SET stadium_name = #{stadiumName}, type = #{type}, &quot; +
+<i>59</i>&nbsp;            &quot;location = #{location}, description = #{description}, price = #{price} &quot; +
+<i>60</i>&nbsp;            &quot;WHERE stadium_id = #{stadiumId}&quot;)
+<i>61</i>&nbsp;    void updateStadium(StadiumRequest stadiumRequest);
+<i>62</i>&nbsp;
+<i>63</i>&nbsp;    @Insert(&quot;UPDATE stadium SET stadium_name = #{stadiumName}, type = #{type}, &quot; +
+<i>64</i>&nbsp;            &quot;location = #{location}, description = #{description}, price = #{price}, &quot; +
+<i>65</i>&nbsp;            &quot;picture = #{picture} WHERE stadium_id = #{stadiumId}&quot;)
+<i>66</i>&nbsp;    void updateStadiumWithPicture(StadiumRequest stadiumRequest);
+<i>67</i>&nbsp;
+<i>68</i>&nbsp;    /** 集成测试用 **/
+<i>69</i>&nbsp;
+<i>70</i>&nbsp;    @Select(&quot;SELECT stadium_id FROM stadium WHERE stadium_name = #{stadiumName}&quot;)
+<i>71</i>&nbsp;    int[] getStadiumIdByName(String stadiumName);
+<i>72</i>&nbsp;
+<i>73</i>&nbsp;    @Select(&quot;DELETE FROM stadium WHERE stadium_id = #{id}&quot;)
+<i>74</i>&nbsp;    int[] deleteStadiumByID(Integer id);
+<i>75</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>

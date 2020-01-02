@@ -1,0 +1,101 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: NewsDao</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.rhenium.meethere.dao</a> ]
+</div>
+
+<h1>Coverage Summary for Class: NewsDao (com.rhenium.meethere.dao)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+</tr>
+  <tr>
+    <td class="name">NewsDao$MockitoMock$1747415216</td>
+  </tr>
+  <tr>
+    <td class="name">NewsDao$MockitoMock$1747415216$auxiliary$aKOU68AH</td>
+  </tr>
+  <tr>
+    <td class="name">NewsDao$MockitoMock$1747415216$auxiliary$JfqCWG7N</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.rhenium.meethere.dao;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.rhenium.meethere.domain.News;
+<i>4</i>&nbsp;import com.rhenium.meethere.dto.NewsRequest;
+<i>5</i>&nbsp;import org.apache.ibatis.annotations.*;
+<i>6</i>&nbsp;import org.apache.ibatis.mapping.FetchType;
+<i>7</i>&nbsp;import org.springframework.stereotype.Repository;
+<i>8</i>&nbsp;
+<i>9</i>&nbsp;import java.util.List;
+<i>10</i>&nbsp;
+<i>11</i>&nbsp;/**
+<i>12</i>&nbsp; * @author HavenTong
+<i>13</i>&nbsp; * @date 2019/12/16 6:04 下午
+<i>14</i>&nbsp; */
+<i>15</i>&nbsp;@Repository
+<i>16</i>&nbsp;@Mapper
+<i>17</i>&nbsp;public interface NewsDao {
+<i>18</i>&nbsp;    @Select(&quot;SELECT * FROM news ORDER BY news_post_time DESC LIMIT #{offset}, #{limit}&quot;)
+<i>19</i>&nbsp;    @Results({
+<i>20</i>&nbsp;            @Result(property = &quot;adminId&quot;, column = &quot;admin_id&quot;),
+<i>21</i>&nbsp;            @Result(property = &quot;admin&quot;, column = &quot;admin_id&quot;, one = @One(select = &quot;com.rhenium.meethere.dao.AdminDao.findAdminById&quot;, fetchType = FetchType.EAGER))
+<i>22</i>&nbsp;    })
+<i>23</i>&nbsp;    List&lt;News&gt; findNewsByOffsetAndLimit(@Param(&quot;offset&quot;) int offset, @Param(&quot;limit&quot;) int limit);
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;    @Insert(&quot;INSERT INTO news (news_title, admin_id, news_post_time, news_content) &quot; +
+<i>26</i>&nbsp;            &quot;VALUES (#{newsTitle}, #{adminId}, #{newsPostTime}, #{newsContent})&quot;)
+<i>27</i>&nbsp;    int createNews(NewsRequest newsRequest);
+<i>28</i>&nbsp;
+<i>29</i>&nbsp;    @Update(&quot;UPDATE news SET news_title = #{newsTitle}, news_content = #{newsContent} &quot; +
+<i>30</i>&nbsp;            &quot;WHERE news_id = #{newsId}&quot;)
+<i>31</i>&nbsp;    int updateNews(NewsRequest newsRequest);
+<i>32</i>&nbsp;
+<i>33</i>&nbsp;    @Delete(&quot;DELETE FROM news WHERE news_id = #{newsId}&quot;)
+<i>34</i>&nbsp;    int deleteNews(NewsRequest newsRequest);
+<i>35</i>&nbsp;
+<i>36</i>&nbsp;    @Select(&quot;SELECT COUNT(*) FROM news&quot;)
+<i>37</i>&nbsp;    int getNewsCount();
+<i>38</i>&nbsp;
+<i>39</i>&nbsp;    /** 集成测试用 */
+<i>40</i>&nbsp;    @Select(&quot;SELECT news_id FROM news WHERE news_title = #{newsTitle}&quot;)
+<i>41</i>&nbsp;    int[] getNewsIdByNewsTitle(String newsTitle);
+<i>42</i>&nbsp;
+<i>43</i>&nbsp;    @Delete(&quot;DELETE FROM news WHERE news_id = #{newsId}&quot;)
+<i>44</i>&nbsp;    int deleteNewsByNewsId(Integer newsId);
+<i>45</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-01-02 18:51</div>
+</div>
+</body>
+</html>
