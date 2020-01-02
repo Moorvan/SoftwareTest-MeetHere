@@ -1,0 +1,2207 @@
+{
+  "id": "08ad4aed-2ad9-4102-960a-eac7598dd722",
+  "version": "2.0",
+  "name": "CustomerRegister",
+  "url": "http://localhost:8002",
+  "tests": [{
+    "id": "e10fb81f-3397-41f7-8b33-ecadc352cb8e",
+    "name": "CustomerRegisterMailSuccess",
+    "commands": [{
+      "id": "c84ca15e-1b48-47c4-8a3e-2ef8b0152891",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bde7c72-08dd-49c0-8f05-c2917320f5ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "277e6aeb-ed23-4a6f-8b53-5713b577d9ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "036b8076-ac84-4112-8b74-64b5f8067ba1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82eb8e21-46ed-4d2f-9971-b3becc00c66e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "852092786@qq.com"
+    }, {
+      "id": "bda1b5a7-7582-40f3-af43-2e362466710f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "b3c5c7f9-3db1-4219-b7af-a9da92881e0d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "12539782-80b4-4581-b78a-35fddfe35284",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col span",
+      "targets": [
+        ["css=.el-col span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'发送验证码')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef5727f1-9362-4153-b6e6-bcb7932e58a5",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "发送成功!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16fb2666-80f5-42ec-a4a9-524373f2257b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__close",
+      "targets": [
+        ["css=.el-dialog__close", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1415cc5c-d7a8-427e-bd3e-1722de057cb3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1f7d49eb-a224-4359-94ba-753e0c74ecad",
+    "name": "CustomerRegisterWithExistedMail",
+    "commands": [{
+      "id": "74bbafe6-f8c6-4672-93f7-f7767f9024df",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7dd0befb-9d8b-4ebd-a9e4-345be2f246fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "769c96e1-b240-475b-bd56-227c33790334",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a4da170-ff89-4add-8213-448a7951c55d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aeec3c4f-a2b8-464e-8631-b2b0ca3ae6a5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "10175101152@stu.ecnu.edu.cn"
+    }, {
+      "id": "20be108f-2c6b-49b4-b3c1-8f88057d9915",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "388d47ba-49c4-4152-a6d5-0a7364991589",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "1fb95f11-fffa-4b12-a894-d309aa0c4664",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col span",
+      "targets": [
+        ["css=.el-col span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'发送验证码')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a7690c5-21b3-4239-b325-2f700490cb51",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "发送失败，邮箱可能已被占用",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7b8646a-fbd4-4b7a-939e-09b96bba377b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__close",
+      "targets": [
+        ["css=.el-dialog__close", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c31656e6-8787-4996-a74f-d8ac1237b5d5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "082117c7-d1ce-4f4c-a6e1-e82a7e1a70df",
+    "name": "CustomerRegisterWithInvalidMail",
+    "commands": [{
+      "id": "ce412752-1445-4d6f-ae9f-ff7329afff70",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1db2052-9b17-4ea2-9a94-c16e378b0c1f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "273ddae6-bf34-4140-9188-87c02e149ecd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8ec769b-0696-4153-9088-8aba0b241757",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db4d2890-6c78-4f1c-a096-cca763132fb2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "8c0b5706-52d5-4374-8916-fdba504f0224",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "e724dd64-36d7-4dad-a8f8-8af3acbe3751",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "74425748-0c60-478e-b691-cf654c3a2d10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col span",
+      "targets": [
+        ["css=.el-col span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'发送验证码')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "017cde3d-1d33-41bf-a452-94a3d9b6db66",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.el-form-item:nth-child(1) .el-form-item__error",
+      "targets": [],
+      "value": "请输入正确的邮箱地址"
+    }, {
+      "id": "86d3c0df-77f4-45fb-9504-04cf26b0708b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d274034b-0fbc-42c9-bdc7-c88b26b4233d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.el-form-item:nth-child(1) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "887bbbb9-8abc-425a-9d26-7d7ea10e4142",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__close",
+      "targets": [
+        ["css=.el-dialog__close", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53b490a9-baac-429c-9217-ab08c00175f8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b33941fa-ec24-42bb-bad8-6d9d8300fa80",
+    "name": "CustomerRegisterWithEmptyMail",
+    "commands": [{
+      "id": "98e09581-e5be-4a2b-a493-b50e0642a55b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4067d3e-f84a-47c5-b04c-bca05f02ea10",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de751f60-21c4-4986-a6e3-738340fc8831",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b7c9905-bdd1-400d-ad03-d6ff00985ba5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7eb0f37-caa6-4852-94b2-3d29ce2e1cda",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "fb9569ef-e6c7-459f-8aff-96e6b8fb4bd8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "d652d0b4-27a6-4412-b1b4-f5bf7036447e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col span",
+      "targets": [
+        ["css=.el-col span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'发送验证码')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa32d639-7cf3-4a9b-b58d-96ffadb18227",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.el-form-item:nth-child(1) .el-form-item__error",
+      "targets": [],
+      "value": "请输入邮箱地址"
+    }, {
+      "id": "c6ad5e4c-0425-41d7-9bf7-4fb9d0c93041",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3993792-2a85-42da-b798-b0cf441dea70",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.el-form-item:nth-child(1) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "209d1143-2975-4f53-83c9-84d56acc8070",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__close",
+      "targets": [
+        ["css=.el-dialog__close", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5346f46-8c65-4fee-b6ce-24a14c494be8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2ffd165d-2c81-4d57-8807-49562b955ad5",
+    "name": "CustomerRegisterEmailWithSpaceAtHead",
+    "commands": [{
+      "id": "9a343463-58c8-48f7-903c-d432d1871e3d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "362c4c3d-a20d-4e03-aad1-b54e22e4cbf4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b66e427-2603-4348-9cf6-a602bbe17b11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbb7b77f-4d3d-4950-8a5b-5a4fd3f3825e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d647dbef-9de1-4096-ad9c-9e56ba369c1f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "     852092786@qq.com"
+    }, {
+      "id": "8c8b9eb8-6078-4d28-a0b3-0ed87fefcbb1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "635922de-3ae4-4da7-93f1-096d09a55b25",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "d094cefc-40a9-4e9d-83e6-578fb9c3c8e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col span",
+      "targets": [
+        ["css=.el-col span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'发送验证码')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b7d7e3e-022a-4dd1-b07e-55f773f1ce92",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "发送成功!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "965621fb-635b-412f-ae06-f48aef894044",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__close",
+      "targets": [
+        ["css=.el-dialog__close", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb21c477-4dc0-40f7-a75b-166e74a3ceaf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3a91550e-438a-4ccd-bbe5-ed87cf9af57c",
+    "name": "CustomerRegisterEmailWithSpaceAtTail",
+    "commands": [{
+      "id": "faa477b1-b70a-4400-b7a8-919ecd1da96c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d30fe378-41cb-40f1-b5cc-704ab85edd5e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5614ece-a865-45d0-9fc4-a4fdcd21dad6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5db4bf1f-a1ef-41f9-8ea1-403369db6bcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31ebd0fd-f771-4dda-802e-e1ba852171d9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "852092786@qq.com      "
+    }, {
+      "id": "1e9af7a6-d066-4854-bc0b-1f9316e28d01",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "a7511171-b1ea-4896-a087-0426b435c925",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "8c20fa38-5505-41b3-886b-222228e45f3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col span",
+      "targets": [
+        ["css=.el-col span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'发送验证码')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95177da3-73e3-4bc5-aa5f-4f44c6b5bba3",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "发送成功!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77125c04-4dc8-467a-97f4-cd9b37f5a8a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__close",
+      "targets": [
+        ["css=.el-dialog__close", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fac4c5f-9128-4172-a8f1-2ce3118d5c2d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9819f33e-5fa5-4da7-9d83-2f5ad5e433c5",
+    "name": "CustomerRegisterWithInvalidUserName",
+    "commands": [{
+      "id": "5cba2d3f-bc0f-4504-8f77-2611dadcbb81",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b35b81eb-1af7-4adb-a5c8-1c8a7942db05",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c779437-4a4a-4de3-bf55-fe08bab02233",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad17846c-1657-47d5-b22b-d19f2bc1f477",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaba6954-9b88-4a43-bd87-57bd91c90545",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "852092786@qq.com"
+    }, {
+      "id": "39146870-9005-49b0-a551-3b06bc95bb2e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "verylongusername"
+    }, {
+      "id": "23b313be-47f6-4580-9636-6857dfe70b49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2f210f8-5b00-422d-8431-146708269a2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(2) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "483ae752-b8a3-46a6-9eac-8f4af32ccfc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(2) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1d4e6d7-4a8f-4967-9827-734384f97fe1",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.el-form-item:nth-child(2) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "391611b0-0aed-4a31-b235-df8790c90f7b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.el-form-item:nth-child(2) .el-form-item__error",
+      "targets": [],
+      "value": "长度在 1 到 8 个字符"
+    }, {
+      "id": "f521063f-a32f-4127-b867-e1c089be0509",
+      "comment": "",
+      "command": "click",
+      "target": "css=.is-error:nth-child(3) .el-input__inner",
+      "targets": [
+        ["css=.is-error:nth-child(3) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9addcd37-ab37-442a-93da-c65fb4fcfa9b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.is-error:nth-child(3) .el-input__inner",
+      "targets": [
+        ["css=.is-error:nth-child(3) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "ddd70ec0-db0e-4355-bdf8-ab8919158c73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__close",
+      "targets": [
+        ["css=.el-dialog__close", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cf57754-9516-4947-80ce-dc6cfd846fe6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6c208624-9321-4c5c-b2df-b692a89316c3",
+    "name": "CustomerRegisterWithEmptyUserName",
+    "commands": [{
+      "id": "78fbd17a-76ad-4818-9dea-47516c290ca2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40f545eb-0f75-4dfe-b254-b49b970a26f8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc8f66b3-ef02-4ab6-86f1-dad4f45915da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fabdaf4-e8df-4ccb-bcfc-0be19b58e75a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7586db16-2e17-4e77-bbe9-b524bfbfdf51",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "852092786@qq.com"
+    }, {
+      "id": "91956e3a-3bb2-4501-b85c-bfc68e555db3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9eadfc9-fa5d-4226-960d-5d7d3a625a62",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6164bc07-db08-4dbe-81d3-cf2f9a15f179",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(2) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "862b66ac-4c7b-459a-b28f-49c60a084dd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(2) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "714de449-6908-4aef-8360-da3377e3a8be",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.el-form-item:nth-child(2) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8140ec9b-ae0c-4f68-b51f-efd0eeb753eb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.el-form-item:nth-child(2) .el-form-item__error",
+      "targets": [],
+      "value": "请输入用户名"
+    }, {
+      "id": "1745aae4-7e46-4a13-a3a0-7b0cbea133b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.is-error:nth-child(3) .el-input__inner",
+      "targets": [
+        ["css=.is-error:nth-child(3) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "def09d36-21b3-461e-a49e-a3ace918d192",
+      "comment": "",
+      "command": "type",
+      "target": "css=.is-error:nth-child(3) .el-input__inner",
+      "targets": [
+        ["css=.is-error:nth-child(3) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "018335da-19c7-4f8a-89a5-b724d60f7f1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__close",
+      "targets": [
+        ["css=.el-dialog__close", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "675414f8-cafb-482d-ab6a-a1f71f88d48e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c8770ed7-0189-4c80-8682-7ea6a4edc5e5",
+    "name": "CustomerRegisterWithEmptyPassword",
+    "commands": [{
+      "id": "9b05c4d6-0c5e-4116-9305-439a96735c53",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb644274-d0d2-46fb-9efc-644825aabcaa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "785f9da6-8eed-4559-9ae2-e26c00cb9f9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success > span",
+      "targets": [
+        ["css=.el-button--success > span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1be72fc3-04d8-4acc-ad1d-b73b6d7a8e02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "081c60ee-bed0-42b4-9d77-450325d71323",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "852092786@qq.com"
+    }, {
+      "id": "b3420b3d-b944-4c68-b13d-647f42c4d40b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "41f9d6fc-c0d5-4b12-98f9-c14007564ff2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d425d91-4821-4746-ab9a-251706851efc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col .el-input__inner",
+      "targets": [
+        ["css=.el-col .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2f46831-6108-4c8f-a869-c3c2d0f5ff67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form--label-left",
+      "targets": [
+        ["css=.el-form--label-left", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//div[2]/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85832bc5-08a7-4088-8309-fb8b241c2a4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(3) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bea33a36-f69a-4160-9db3-8feb54478ab8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(3) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "125c2e16-19aa-4378-bc54-42d59bf237b9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.el-form-item:nth-child(3) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cd1f715-5874-4f78-a6ac-9d5b30eac26e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.el-form-item:nth-child(3) .el-form-item__error",
+      "targets": [],
+      "value": "请输入密码"
+    }, {
+      "id": "e8ba94f4-14d6-462b-8390-108d6826f20c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col .el-input__inner",
+      "targets": [
+        ["css=.el-col .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f44fad20-ceb5-4ce3-a685-4d7d9084de84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__body",
+      "targets": [
+        ["css=.el-dialog__body", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69797631-d801-4f54-ae36-6c9c935ed64a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.is-error > .el-form-item__content > .el-input > .el-input__inner",
+      "targets": [
+        ["css=.is-error > .el-form-item__content > .el-input > .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f70ebd8-de6d-4fb3-8d37-c2b1938c5f4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__close",
+      "targets": [
+        ["css=.el-dialog__close", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87d2d71b-4e5a-450b-ba78-21572b45b00c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8cd0f15a-f0ee-4c90-a01a-35c4b59fca67",
+    "name": "CustomerRegisterWithShorterPassword ",
+    "commands": [{
+      "id": "e6823a00-3c4a-44f7-9cba-46b1ab900587",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41310f61-6275-43c7-8208-410ca1722b1e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81ac6d02-349c-4c03-b06f-ac319e232820",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e828343-16a3-4ce9-95f9-824bcce0b0d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6375350-d65d-4cb7-b25c-917aef104e44",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "852092786@qq.com"
+    }, {
+      "id": "68ae709d-27fa-4791-9810-394d63c74145",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46e649fc-dc6b-49e9-9d00-0d09ba17517a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "e14619bb-8c65-49c3-aa0b-31499a937dc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1249274e-6b20-4b66-93ee-81de7ed25d54",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "5ee36585-600f-4e6c-8826-9c15773121b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form--label-left",
+      "targets": [
+        ["css=.el-form--label-left", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//div[2]/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91660a94-fa9e-4520-84d6-425169e428fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col .el-input__inner",
+      "targets": [
+        ["css=.el-col .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a5665b8-3961-4864-9da3-ca7336d0ccaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(3) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ca81940-eae9-4d2c-90b3-60e2ff345947",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(3) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afd82312-4670-450f-9115-8136d3b73444",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.el-form-item:nth-child(3) .el-form-item__error",
+      "targets": [],
+      "value": "长度在 6 到 20 个字符"
+    }, {
+      "id": "f11f95be-95c0-4465-b9c3-c30c639f7222",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col .el-input__inner",
+      "targets": [
+        ["css=.el-col .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53ef448c-2a76-4c2a-a828-6a6a03017909",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__close",
+      "targets": [
+        ["css=.el-dialog__close", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d79f26a-347e-4817-b606-de1ba0f49ea0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1f4fde37-45cc-4dc9-b052-393b09a9afd4",
+    "name": "CustomerRegisterWithLongerPassword ",
+    "commands": [{
+      "id": "bada5d0e-770a-46c5-a270-80744069e710",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2236f28-ad4c-404b-8d7f-fb23eddfcc2f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d56c00a4-99b1-475a-8625-b8dcbae97447",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46b3a2bd-7c4f-4fc2-aadd-79619041c3c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b7ee01f-673f-4caf-9ab0-3a0fb3470645",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "852092786@qq.com"
+    }, {
+      "id": "41a38d1b-ba0a-492a-8d57-0535cc4fa290",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8783cc9f-27d9-4341-b600-1da2d5dc832f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "ccdd3cb3-59b3-4083-997c-495d3dad0ce8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba3f52cd-3791-4558-be72-c216391a74de",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "veryveryverylongpassword"
+    }, {
+      "id": "ef2f8878-c17c-410a-9a10-d30fa7ce34cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form--label-left",
+      "targets": [
+        ["css=.el-form--label-left", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//div[2]/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b6569e7-da43-49f9-9601-423fbd858b87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col .el-input__inner",
+      "targets": [
+        ["css=.el-col .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5e8e972-38c9-4246-a16e-2481e59135f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(3) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa8fa4de-8363-4e8b-9b08-a34bf798a5a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(3) .el-form-item__error",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) .el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b467ce1a-bbf7-418a-af1f-bcdc394b3e93",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.el-form-item:nth-child(3) .el-form-item__error",
+      "targets": [],
+      "value": "长度在 6 到 20 个字符"
+    }, {
+      "id": "6f0f93d4-b7a9-42e7-bfe6-1f676da46aba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col .el-input__inner",
+      "targets": [
+        ["css=.el-col .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cd61032-cee1-4cfd-b884-5523a004309f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__close",
+      "targets": [
+        ["css=.el-dialog__close", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f8042ea-97cb-4b70-bc5f-05574f3f1e9a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "03cbbfcb-fa40-488b-b1d0-c1e4135e1638",
+    "name": "CustomerRegisterWithEmptyCheckCode",
+    "commands": [{
+      "id": "7a7e69c7-ad02-49a9-a250-c598c2f51e66",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e87f2099-d3cd-45af-a7b5-0155fbe4ffeb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29ead642-f45d-4ca1-9757-e9c44dde9d11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e79531e4-4f33-42ee-b0f2-17adf4195c4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__body",
+      "targets": [
+        ["css=.el-dialog__body", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21931a1d-113d-4641-9b71-2f147c65aa2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "125c711e-fbb2-474b-8a2f-328d8b7933eb",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "852092786@qq.com"
+    }, {
+      "id": "a3901538-fc81-4e0c-85a8-18f0c66c0085",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "c4c656b7-c493-44a3-afe5-8e0f278df133",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "20204eaf-028e-4b3d-8ec4-8a40dc58039f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col > .el-button",
+      "targets": [
+        ["css=.el-col > .el-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'发送验证码')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "237f0aef-2730-4f8c-ba83-d57e87ca5c72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col .el-input__inner",
+      "targets": [
+        ["css=.el-col .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6442bc7-0931-4a6d-a960-4baada80b581",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__body",
+      "targets": [
+        ["css=.el-dialog__body", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35aa4d6c-1e84-4e6b-b560-da9198d81319",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "发送成功!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c05ebd22-8e6b-40ed-b672-41cfdf502b6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item__error",
+      "targets": [
+        ["css=.el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f056e772-d451-4948-a023-0063076a9e00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item__error",
+      "targets": [
+        ["css=.el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08fdb605-fcb0-45e4-81fe-6c5d8903c1aa",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.el-form-item__error",
+      "targets": [],
+      "value": "请输入验证码"
+    }, {
+      "id": "3d152c60-33ef-4c4d-b4fb-0797c99ba826",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__body",
+      "targets": [
+        ["css=.el-dialog__body", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47bf6aab-9add-4e02-ae9b-e447adf7a8d5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6c648ef8-519c-4703-bf15-aa0c2565f55b",
+    "name": "CustomerRegisterWithLongerCheckCode ",
+    "commands": [{
+      "id": "addf9879-e1e0-4a80-8f5d-8e1a676f561a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "025ff137-e79f-4f18-a2ee-07504c450a55",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25de2bbc-02e8-4637-90e4-d5c8c1447a1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24590298-a159-4181-b356-17f55c66ec4b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13a0178e-8994-4b81-bd73-6da940534fc2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "179e87b0-f786-4c5e-8ed4-a87db2e54844",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faa38388-debf-4744-a6e4-43618331d12f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "852092786@qq.com"
+    }, {
+      "id": "62ace093-0d59-44e2-bc80-57863e7a0782",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "4f5cb624-a720-4b9f-850d-84fb235e7dc3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "66b01867-2642-4487-8f6e-c54b2f4d0561",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col > .el-button",
+      "targets": [
+        ["css=.el-col > .el-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'发送验证码')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ae39e5b-71c2-4baa-a2bb-4c3978dacc01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col .el-input__inner",
+      "targets": [
+        ["css=.el-col .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d1b4637-4e41-4f1c-a168-d887a11e2e74",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "发送成功!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09fe2ef7-61a4-4e08-9eb3-462df3fb51c6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-col .el-input__inner",
+      "targets": [
+        ["css=.el-col .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "668f7482-741a-4580-a5ab-513f898dfa05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dialog-footer > .el-button",
+      "targets": [
+        ["css=.dialog-footer > .el-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[3]/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'立即注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ff65b22-f729-4503-be75-8f781bad0daf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item__error",
+      "targets": [
+        ["css=.el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c61a053b-aa8c-429f-84d0-d1accf0790f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item__error",
+      "targets": [
+        ["css=.el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cf7d2a5-409e-423c-8ef3-0bb44bcedd35",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.el-form-item__error",
+      "targets": [],
+      "value": "验证码长度错误"
+    }, {
+      "id": "d017b799-53e3-4046-b5e1-da70c2af7985",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "80fef34c-80d8-4774-87ed-54d7e314dd07",
+    "name": "CustomerRegisterWithShorterCheckCode ",
+    "commands": [{
+      "id": "873b3267-7a4b-475f-be4e-21ebe2bb6bb1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b91538f9-b334-4343-a313-1a813a1e22eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d76116fd-4891-4740-a45b-2e945f88bec3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6376dbc8-23e1-4f84-9105-264edf43da37",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "850e3d00-63c1-47cc-930d-35ca13b91528",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.el-button--success",
+      "targets": [
+        ["css=.el-button--success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e7fb6c7-3b1b-4080-8a72-df02b339c405",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88648aa7-e9df-4c38-a9ff-1ed6453d59d0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "852092786@qq.com"
+    }, {
+      "id": "0437e430-0fb5-4462-9931-670b4e2b0a78",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(2) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "98b2ca94-45e3-432d-85fd-7378e64a0c66",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(3) > .el-form-item__content:nth-child(2) .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "d943aef2-e015-4b3f-b4f1-c98a00cf05e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col > .el-button",
+      "targets": [
+        ["css=.el-col > .el-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'发送验证码')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a863052-2572-43cf-b13f-90de98991eb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-col .el-input__inner",
+      "targets": [
+        ["css=.el-col .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fa9cfff-8b5a-4fee-8028-b3cc7b4313d0",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "发送成功!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0868b0d-6d3d-495c-9aa6-b0718b5a6eb3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-col .el-input__inner",
+      "targets": [
+        ["css=.el-col .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "315fbf70-f997-4f08-be93-6628e951e95c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dialog-footer > .el-button",
+      "targets": [
+        ["css=.dialog-footer > .el-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[3]/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'立即注册')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8783852-f7c9-4a5c-a446-d362ee443539",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item__error",
+      "targets": [
+        ["css=.el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1adea64-7cc6-4135-a606-ef5acf54ad2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item__error",
+      "targets": [
+        ["css=.el-form-item__error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/form/div[4]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efa23ecb-84c3-42f2-a5ed-b09a17ab3c1d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.el-form-item__error",
+      "targets": [],
+      "value": "验证码长度错误"
+    }, {
+      "id": "d37b9c9e-3063-49d4-aff4-b2fc9467558c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "95c82b15-8e3e-47bb-a861-6a79559dc461",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e10fb81f-3397-41f7-8b33-ecadc352cb8e"]
+  }],
+  "urls": ["http://localhost:8002/"],
+  "plugins": []
+}
