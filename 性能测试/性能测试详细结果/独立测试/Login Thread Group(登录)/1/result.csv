@@ -1,0 +1,729 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,grpThreads,allThreads,URL,Filename,Latency,Encoding,SampleCount,ErrorCount,Hostname,IdleTime,Connect
+1577949408693,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949408693,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,37
+1577949408871,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949408871,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,815,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949409036,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949409036,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949409201,168,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949409201,168,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,168,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949409371,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,804,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949409371,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,804,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949409535,169,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949409534,169,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949409705,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949409705,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949409883,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949409883,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949410059,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,810,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949410059,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,810,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949410237,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949410237,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949410414,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949410414,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,809,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949410591,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949410591,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,38
+1577949410769,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949410769,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949410944,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949410944,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949411107,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949411107,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,817,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949411273,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949411273,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,165,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949411439,169,Login,200,,Login Thread Group(登录) 1-1,text,true,,819,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949411439,169,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,819,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,32
+1577949411610,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949411610,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949411783,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949411783,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949411946,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949411946,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,801,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949412111,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,810,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949412111,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,810,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,5,31
+1577949412278,179,Login,200,,Login Thread Group(登录) 1-1,text,true,,797,1,1,http://152.136.173.30:8080/customer/login,,179,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949412278,179,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,797,1,1,null,,179,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949412458,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949412458,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949412634,179,Login,200,,Login Thread Group(登录) 1-1,text,true,,792,1,1,http://152.136.173.30:8080/customer/login,,179,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949412634,179,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,792,1,1,null,,179,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949412815,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949412815,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949412990,169,Login,200,,Login Thread Group(登录) 1-1,text,true,,796,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949412990,169,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,796,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,32
+1577949413161,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,795,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949413161,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,795,1,1,null,,165,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949413327,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949413327,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949413502,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,791,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949413501,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,791,1,1,null,,165,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,30
+1577949413669,168,Login,200,,Login Thread Group(登录) 1-1,text,true,,812,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949413669,168,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,812,1,1,null,,168,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949413839,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949413839,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949414005,159,Login,200,,Login Thread Group(登录) 1-1,text,true,,790,1,1,http://152.136.173.30:8080/customer/login,,159,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949414005,159,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,790,1,1,null,,159,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,30
+1577949414165,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,792,1,1,http://152.136.173.30:8080/customer/login,,171,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,33
+1577949414165,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,792,1,1,null,,171,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,33
+1577949414339,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,821,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949414338,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,821,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949414513,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,803,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949414512,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,803,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949414688,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949414687,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949414868,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949414867,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949415046,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949415046,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949415225,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,811,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949415225,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,811,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949415402,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949415402,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949415577,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,795,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949415577,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,795,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949415754,179,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,179,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949415753,179,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,179,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949415935,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949415935,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949416100,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949416100,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949416263,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949416263,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,815,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949416440,168,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949416439,168,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,168,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949416609,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,797,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949416609,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,797,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949416773,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949416773,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949416945,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949416944,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949417107,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949417106,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,801,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949417284,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949417284,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949417461,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949417461,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949417638,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,823,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949417638,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,823,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,37
+1577949417817,166,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949417817,166,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,166,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949417984,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949417984,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,165,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949418150,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949418150,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,809,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949418313,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949418313,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949418476,192,Login,200,,Login Thread Group(登录) 1-1,text,true,,803,1,1,http://152.136.173.30:8080/customer/login,,192,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949418476,192,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,803,1,1,null,,192,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949418670,169,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949418669,169,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949418840,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949418840,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949419018,180,Login,200,,Login Thread Group(登录) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,180,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949419018,180,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,802,1,1,null,,180,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949419200,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,804,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949419200,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,804,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949419380,182,Login,200,,Login Thread Group(登录) 1-1,text,true,,796,1,1,http://152.136.173.30:8080/customer/login,,182,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949419380,182,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,796,1,1,null,,182,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949419563,179,Login,200,,Login Thread Group(登录) 1-1,text,true,,819,1,1,http://152.136.173.30:8080/customer/login,,179,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949419563,179,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,819,1,1,null,,179,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949419743,183,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,183,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949419743,183,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,183,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949419927,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949419927,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949420098,166,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949420098,166,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,166,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949420265,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949420265,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949420441,204,Login,200,,Login Thread Group(登录) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,204,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949420441,204,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,802,1,1,null,,204,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,31
+1577949420648,166,Login,200,,Login Thread Group(登录) 1-1,text,true,,808,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949420648,166,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,808,1,1,null,,166,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949420816,169,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949420816,169,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949420986,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,818,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949420986,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,818,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949421160,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949421160,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,817,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949421334,187,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,187,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949421334,187,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,187,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949421523,191,Login,200,,Login Thread Group(登录) 1-1,text,true,,791,1,1,http://152.136.173.30:8080/customer/login,,191,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949421523,191,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,791,1,1,null,,191,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949421715,190,Login,200,,Login Thread Group(登录) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,190,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949421715,190,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,817,1,1,null,,190,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949421906,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,820,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949421906,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,820,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949422084,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949422084,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,802,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949422259,187,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,187,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949422259,187,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,187,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949422448,182,Login,200,,Login Thread Group(登录) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,182,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949422447,182,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,815,1,1,null,,182,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949422631,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949422631,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949422793,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949422793,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,165,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949422959,169,Login,200,,Login Thread Group(登录) 1-1,text,true,,804,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949422959,169,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,804,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949423129,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949423129,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949423293,180,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,180,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949423292,180,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,180,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,30
+1577949423474,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949423474,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,165,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949423640,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,810,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949423640,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,810,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949423802,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949423801,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949423968,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949423968,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,809,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949424143,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949424143,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949424321,182,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,182,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949424321,182,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,182,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949424504,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,171,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949424504,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,171,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949424677,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949424677,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,817,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949424851,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949424851,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949425028,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,819,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949425028,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,819,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949425203,187,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,187,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949425203,187,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,187,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949425392,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949425392,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,165,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949425559,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949425558,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,801,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,32
+1577949425725,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,810,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949425725,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,810,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949425890,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,797,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949425890,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,797,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949426054,168,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949426054,168,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,168,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949426223,186,Login,200,,Login Thread Group(登录) 1-1,text,true,,792,1,1,http://152.136.173.30:8080/customer/login,,186,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,33
+1577949426223,186,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,792,1,1,null,,186,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,33
+1577949426410,169,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949426410,169,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949426581,167,Login,200,,Login Thread Group(登录) 1-1,text,true,,796,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949426581,167,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,796,1,1,null,,166,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949426749,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,795,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949426749,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,795,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949426924,179,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,179,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949426924,179,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,179,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949427104,181,Login,200,,Login Thread Group(登录) 1-1,text,true,,791,1,1,http://152.136.173.30:8080/customer/login,,181,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949427104,181,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,791,1,1,null,,181,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949427287,195,Login,200,,Login Thread Group(登录) 1-1,text,true,,812,1,1,http://152.136.173.30:8080/customer/login,,195,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949427287,195,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,812,1,1,null,,195,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949427483,182,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,182,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949427483,182,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,182,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949427666,181,Login,200,,Login Thread Group(登录) 1-1,text,true,,790,1,1,http://152.136.173.30:8080/customer/login,,181,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949427665,181,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,790,1,1,null,,181,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949427848,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,792,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949427848,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,792,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949428019,181,Login,200,,Login Thread Group(登录) 1-1,text,true,,821,1,1,http://152.136.173.30:8080/customer/login,,181,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949428019,181,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,821,1,1,null,,181,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949428201,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,803,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949428201,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,803,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949428366,171,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,171,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949428366,171,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,171,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949428538,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949428538,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,165,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949428704,158,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,158,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949428704,158,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,158,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949428863,180,Login,200,,Login Thread Group(登录) 1-1,text,true,,811,1,1,http://152.136.173.30:8080/customer/login,,180,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949428863,180,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,811,1,1,null,,180,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949429044,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949429043,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949429220,185,Login,200,,Login Thread Group(登录) 1-1,text,true,,795,1,1,http://152.136.173.30:8080/customer/login,,185,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949429220,185,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,795,1,1,null,,185,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949429406,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949429406,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949429584,168,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949429583,168,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,168,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949429753,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949429753,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949429924,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949429924,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,815,1,1,null,,165,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949430090,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949430090,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949430255,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,797,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949430255,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,797,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949430417,159,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,159,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949430417,159,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,159,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949430577,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949430577,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949430741,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949430741,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,801,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949430903,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949430902,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949431077,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949431077,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949431248,183,Login,200,,Login Thread Group(登录) 1-1,text,true,,823,1,1,http://152.136.173.30:8080/customer/login,,183,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949431247,183,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,823,1,1,null,,183,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949431438,184,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,181,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949431438,184,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,181,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949431623,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949431623,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949431797,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949431796,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,809,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949431974,179,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949431974,179,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949432154,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,803,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949432154,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,803,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949432319,167,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,167,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949432319,167,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,167,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949432487,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949432487,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949432653,171,Login,200,,Login Thread Group(登录) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,171,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949432653,171,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,802,1,1,null,,171,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949432824,166,Login,200,,Login Thread Group(登录) 1-1,text,true,,804,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949432824,166,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,804,1,1,null,,166,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949432991,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,796,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949432991,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,796,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949433163,171,Login,200,,Login Thread Group(登录) 1-1,text,true,,819,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949433163,171,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,819,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949433335,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949433335,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949433512,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949433511,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949433689,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949433688,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949433862,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949433862,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949434039,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949434039,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,802,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949434213,168,Login,200,,Login Thread Group(登录) 1-1,text,true,,808,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949434213,168,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,808,1,1,null,,168,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949434382,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949434382,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949434543,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,818,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949434543,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,818,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949434705,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949434705,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,817,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949434880,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949434880,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949435053,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,791,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949435053,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,791,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949435231,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949435231,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,817,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949435409,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,820,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949435409,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,820,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949435587,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949435587,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,802,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949435766,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949435766,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949435940,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949435940,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,815,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949436105,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949436105,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,30
+1577949436267,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949436267,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949436445,169,Login,200,,Login Thread Group(登录) 1-1,text,true,,804,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949436445,169,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,804,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949436615,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949436615,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,165,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949436781,168,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949436781,168,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,168,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949436950,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949436950,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,165,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949437116,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,810,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949437116,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,810,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949437280,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949437280,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949437459,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949437459,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,809,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949437633,171,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949437633,171,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949437804,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949437804,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949437980,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949437980,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949438160,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949438159,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,817,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949438334,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949438333,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,30
+1577949438496,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,819,1,1,http://152.136.173.30:8080/customer/login,,159,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949438495,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,819,1,1,null,,159,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,30
+1577949438657,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949438657,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949438819,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949438819,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949438999,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949438998,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,801,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949439170,171,Login,200,,Login Thread Group(登录) 1-1,text,true,,810,1,1,http://152.136.173.30:8080/customer/login,,171,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949439170,171,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,810,1,1,null,,171,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949439342,180,Login,200,,Login Thread Group(登录) 1-1,text,true,,797,1,1,http://152.136.173.30:8080/customer/login,,180,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949439342,180,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,797,1,1,null,,180,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949439523,166,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949439523,166,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,166,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949439690,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,792,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949439690,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,792,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,30
+1577949439851,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949439851,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949440025,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,796,1,1,http://152.136.173.30:8080/customer/login,,171,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,33
+1577949440025,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,796,1,1,null,,171,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,33
+1577949440198,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,795,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949440198,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,795,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949440361,166,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949440360,166,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,166,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949440528,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,791,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949440528,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,791,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,32
+1577949440706,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,812,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949440706,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,812,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949440878,181,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,180,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949440877,181,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,180,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949441060,180,Login,200,,Login Thread Group(登录) 1-1,text,true,,790,1,1,http://152.136.173.30:8080/customer/login,,180,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949441059,180,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,790,1,1,null,,180,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949441241,179,Login,200,,Login Thread Group(登录) 1-1,text,true,,792,1,1,http://152.136.173.30:8080/customer/login,,179,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949441241,179,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,792,1,1,null,,179,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949441421,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,821,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949441421,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,821,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949441596,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,803,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949441596,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,803,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949441770,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949441770,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949441942,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949441941,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,38
+1577949442120,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,159,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949442120,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,159,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949442281,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,811,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949442280,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,811,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,30
+1577949442457,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949442457,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949442618,168,Login,200,,Login Thread Group(登录) 1-1,text,true,,795,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949442618,168,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,795,1,1,null,,168,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949442787,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949442787,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949442951,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949442951,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949443115,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949443114,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949443291,180,Login,200,,Login Thread Group(登录) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,180,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949443291,180,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,815,1,1,null,,180,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949443472,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949443471,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949443649,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,797,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949443649,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,797,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949443823,1221,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,1221,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,1078
+1577949443823,1221,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,1221,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,1078
+1577949445045,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949445045,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949445209,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949445209,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,801,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949445370,169,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949445370,169,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949445541,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949445540,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,30
+1577949445706,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,823,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949445706,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,823,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949445868,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949445868,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949446031,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949446031,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949446193,183,Login,200,,Login Thread Group(登录) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,183,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949446193,183,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,809,1,1,null,,183,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949446377,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949446377,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949446556,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,803,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949446556,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,803,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949446734,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949446734,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949446908,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949446908,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949447084,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949447084,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,802,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949447257,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,804,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949447257,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,804,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949447422,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,796,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949447421,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,796,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,30
+1577949447583,171,Login,200,,Login Thread Group(登录) 1-1,text,true,,819,1,1,http://152.136.173.30:8080/customer/login,,171,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949447583,171,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,819,1,1,null,,171,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949447756,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949447755,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,31
+1577949447919,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949447919,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949448083,166,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949448083,166,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,165,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949448250,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949448250,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949448421,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949448421,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,802,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949448584,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,808,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949448584,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,808,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949448759,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949448759,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949448933,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,818,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949448933,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,818,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949449106,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949449106,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,817,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949449285,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949449285,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949449449,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,791,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949449448,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,791,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,32
+1577949449626,171,Login,200,,Login Thread Group(登录) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,171,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949449626,171,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,817,1,1,null,,171,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949449798,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,820,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949449798,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,820,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949449960,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,39
+1577949449960,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,802,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,39
+1577949450139,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949450138,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949450316,185,Login,200,,Login Thread Group(登录) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,184,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949450316,185,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,815,1,1,null,,184,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949450501,191,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,191,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949450501,191,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,191,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949450693,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949450693,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949450872,186,Login,200,,Login Thread Group(登录) 1-1,text,true,,804,1,1,http://152.136.173.30:8080/customer/login,,186,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949450871,186,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,804,1,1,null,,186,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949451059,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949451059,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949451236,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949451236,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949451414,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949451414,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949451579,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,810,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949451578,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,810,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949451742,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949451742,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949451916,167,Login,200,,Login Thread Group(登录) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,167,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949451916,167,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,809,1,1,null,,167,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949452084,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949452084,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949452249,193,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,193,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949452249,193,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,193,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949452443,165,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949452443,165,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,165,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949452610,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949452610,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,817,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949452784,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949452784,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949452955,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,819,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949452955,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,819,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949453134,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949453134,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949453308,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,41
+1577949453308,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,41
+1577949453483,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,39
+1577949453483,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,801,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,39
+1577949453661,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,810,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949453661,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,810,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949453837,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,797,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949453837,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,797,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949454013,167,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949454013,167,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,166,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949454181,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,792,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949454181,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,792,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,30
+1577949454347,158,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,158,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949454347,158,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,158,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949454507,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,796,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949454506,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,796,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949454669,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,795,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949454669,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,795,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949454843,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949454843,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949455019,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,791,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949455019,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,791,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949455190,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,812,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949455190,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,812,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949455369,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949455368,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,32
+1577949455533,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,790,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949455533,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,790,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949455696,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,792,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949455696,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,792,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949455860,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,821,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949455860,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,821,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949456022,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,803,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949456021,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,803,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,30
+1577949456184,394,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,394,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949456183,394,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,394,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,30
+1577949456580,169,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949456579,169,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949456751,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949456750,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577949456912,179,Login,200,,Login Thread Group(登录) 1-1,text,true,,811,1,1,http://152.136.173.30:8080/customer/login,,179,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949456912,179,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,811,1,1,null,,179,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949457093,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949457093,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949457273,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,795,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,39
+1577949457273,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,795,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,39
+1577949457453,184,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,184,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949457452,184,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,184,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949457638,180,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,180,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949457638,180,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,180,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949457820,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949457819,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949457998,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949457997,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,815,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,36
+1577949458177,192,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,192,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949458177,192,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,192,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949458371,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,797,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949458371,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,797,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949458545,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949458545,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949458709,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949458709,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949458870,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,33
+1577949458870,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,801,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,33
+1577949459035,166,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949459034,166,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,166,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,30
+1577949459202,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949459202,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949459367,171,Login,200,,Login Thread Group(登录) 1-1,text,true,,823,1,1,http://152.136.173.30:8080/customer/login,,171,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949459367,171,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,823,1,1,null,,171,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949459539,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949459539,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,30
+1577949459703,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949459702,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,36
+1577949459880,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949459880,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,809,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949460051,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949460051,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949460225,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,803,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949460225,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,803,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949460403,169,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949460403,169,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949460573,167,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,167,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949460573,167,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,167,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949460741,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949460741,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,802,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949460905,167,Login,200,,Login Thread Group(登录) 1-1,text,true,,804,1,1,http://152.136.173.30:8080/customer/login,,167,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,33
+1577949460905,167,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,804,1,1,null,,167,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,33
+1577949461074,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,796,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,40
+1577949461074,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,796,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,40
+1577949461250,183,Login,200,,Login Thread Group(登录) 1-1,text,true,,819,1,1,http://152.136.173.30:8080/customer/login,,183,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949461250,183,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,819,1,1,null,,183,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949461434,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949461434,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949461609,182,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,182,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949461609,182,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,182,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949461792,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949461791,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949461963,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949461963,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949462140,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949462140,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,802,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949462315,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,808,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949462315,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,808,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949462495,167,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,167,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949462495,167,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,167,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949462663,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,818,1,1,http://152.136.173.30:8080/customer/login,,159,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949462663,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,818,1,1,null,,159,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949462824,1209,Login,200,,Login Thread Group(登录) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,1209,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,1062
+1577949462824,1209,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,817,1,1,null,,1209,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,1062
+1577949464034,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949464034,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949464198,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,791,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949464198,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,791,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949464374,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949464374,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,817,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949464547,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,820,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949464547,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,820,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949464724,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949464724,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,802,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949464898,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949464898,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949465074,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949465074,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,815,1,1,null,,175,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949465250,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949465250,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577949465430,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949465430,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949465604,159,Login,200,,Login Thread Group(登录) 1-1,text,true,,804,1,1,http://152.136.173.30:8080/customer/login,,159,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949465604,159,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,804,1,1,null,,159,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949465764,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949465764,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949465927,168,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949465927,168,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,168,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949466096,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949466096,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,798,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949466260,173,Login,200,,Login Thread Group(登录) 1-1,text,true,,810,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949466260,173,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,810,1,1,null,,173,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949466434,180,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,180,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949466434,180,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,180,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949466615,166,Login,200,,Login Thread Group(登录) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949466615,166,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,809,1,1,null,,166,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949466782,171,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,30
+1577949466782,171,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,30
+1577949466954,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949466954,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949467127,179,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,39
+1577949467127,179,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,39
+1577949467306,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,171,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949467306,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,817,1,1,null,,171,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949467479,175,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,40
+1577949467479,175,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,40
+1577949467655,169,Login,200,,Login Thread Group(登录) 1-1,text,true,,819,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949467655,169,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,819,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949467825,179,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,179,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949467825,179,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,179,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949468005,178,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,42
+1577949468005,178,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,42
+1577949468184,176,Login,200,,Login Thread Group(登录) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,176,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,41
+1577949468184,176,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,801,1,1,null,,176,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,41
+1577949468362,167,Login,200,,Login Thread Group(登录) 1-1,text,true,,810,1,1,http://152.136.173.30:8080/customer/login,,167,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,33
+1577949468362,167,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,810,1,1,null,,167,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,33
+1577949468532,171,Login,200,,Login Thread Group(登录) 1-1,text,true,,797,1,1,http://152.136.173.30:8080/customer/login,,171,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949468532,171,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,797,1,1,null,,171,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949468705,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949468705,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,807,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949468866,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,792,1,1,http://152.136.173.30:8080/customer/login,,158,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949468866,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,792,1,1,null,,158,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949469027,167,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,167,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949469027,167,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,167,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949469195,189,Login,200,,Login Thread Group(登录) 1-1,text,true,,796,1,1,http://152.136.173.30:8080/customer/login,,188,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949469195,189,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,796,1,1,null,,188,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949469385,158,Login,200,,Login Thread Group(登录) 1-1,text,true,,795,1,1,http://152.136.173.30:8080/customer/login,,158,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949469385,158,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,795,1,1,null,,158,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949469545,166,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949469545,166,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,166,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949469712,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,791,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,39
+1577949469712,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,791,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,39
+1577949469892,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,812,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949469892,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,812,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949470067,182,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,180,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577949470067,182,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,180,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577949470250,177,Login,200,,Login Thread Group(登录) 1-1,text,true,,790,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949470250,177,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,790,1,1,null,,177,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949470428,184,Login,200,,Login Thread Group(登录) 1-1,text,true,,792,1,1,http://152.136.173.30:8080/customer/login,,184,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949470428,184,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,792,1,1,null,,184,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949470613,174,Login,200,,Login Thread Group(登录) 1-1,text,true,,821,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949470613,174,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,821,1,1,null,,174,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577949470788,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,803,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949470788,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,803,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577949470961,171,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,171,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949470961,171,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,171,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949471134,168,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,33
+1577949471134,168,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,168,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,33
+1577949471303,160,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,160,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949471303,160,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,160,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949471464,161,Login,200,,Login Thread Group(登录) 1-1,text,true,,811,1,1,http://152.136.173.30:8080/customer/login,,161,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949471464,161,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,811,1,1,null,,161,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949471626,164,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,164,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949471626,164,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,164,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949471792,169,Login,200,,Login Thread Group(登录) 1-1,text,true,,795,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949471791,169,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,795,1,1,null,,169,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,37
+1577949471963,182,Login,200,,Login Thread Group(登录) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,182,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,41
+1577949471963,182,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,814,1,1,null,,182,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,41
+1577949472146,179,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577949472146,179,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,178,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577949472327,180,Login,200,,Login Thread Group(登录) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,180,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949472327,180,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,799,1,1,null,,180,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577949472507,172,Login,200,,Login Thread Group(登录) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,40
+1577949472507,172,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,815,1,1,null,,172,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,40
+1577949472680,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949472680,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,805,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949472843,166,Login,200,,Login Thread Group(登录) 1-1,text,true,,797,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949472843,166,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,797,1,1,null,,166,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949473010,170,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,170,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949473010,170,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,170,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949473180,163,Login,200,,Login Thread Group(登录) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949473180,163,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,813,1,1,null,,163,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949473344,162,Login,200,,Login Thread Group(登录) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,162,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577949473344,162,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,801,1,1,null,,162,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577949473507,168,Login,200,,Login Thread Group(登录) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949473507,168,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,800,1,1,null,,168,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31
+1577949473677,158,Login,200,,Login Thread Group(登录) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,158,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577949473677,158,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Login Thread Group(登录) 1-1,,true,,806,1,1,null,,158,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,31

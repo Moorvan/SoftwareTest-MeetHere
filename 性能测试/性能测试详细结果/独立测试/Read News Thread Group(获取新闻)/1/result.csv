@@ -1,0 +1,506 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,grpThreads,allThreads,URL,Filename,Latency,Encoding,SampleCount,ErrorCount,Hostname,IdleTime,Connect
+1577934881448,269,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,265,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,113
+1577934881720,82,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=537,,82,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934881803,58,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=537,,58,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934881871,48,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=537,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934881447,457,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6940,1,1,null,,453,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,15,113
+1577934881919,293,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,293,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577934882214,78,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=538,,77,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934882293,59,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=538,,54,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934882353,59,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=538,,59,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934881919,489,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6942,1,1,null,,483,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,38
+1577934882412,197,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,197,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,46
+1577934882610,46,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=539,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934882657,328,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=539,,289,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934882985,55,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=539,,55,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934882412,626,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6925,1,1,null,,587,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,46
+1577934883041,442,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,816,1,1,http://152.136.173.30:8080/customer/login,,441,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,269
+1577934883483,55,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=540,,55,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934883539,119,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=540,,118,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934883659,59,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=540,,59,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934883041,675,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6941,1,1,null,,673,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,269
+1577934883719,208,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,206,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,54
+1577934883928,49,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=541,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934883977,60,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=541,,60,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934884037,49,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=541,,49,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934883719,366,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6931,1,1,null,,361,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,54
+1577934884087,427,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,426,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,278
+1577934884515,59,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=542,,56,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934884575,133,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=542,,130,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934884709,60,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=542,,60,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934884087,679,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6934,1,1,null,,672,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,278
+1577934884770,181,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,179,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,42
+1577934884952,47,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=543,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934884999,63,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=543,,63,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934885062,47,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=543,,47,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934884770,338,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6926,1,1,null,,335,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,42
+1577934885109,388,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,387,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,250
+1577934885498,49,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=545,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934885548,42,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=545,,42,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934885591,43,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=545,,43,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934885109,522,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6925,1,1,null,,520,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,250
+1577934885635,263,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,812,1,1,http://152.136.173.30:8080/customer/login,,262,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,120
+1577934885899,44,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=546,,43,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934885943,48,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=546,,47,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934885992,42,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=546,,42,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934885635,397,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6937,1,1,null,,394,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,120
+1577934886035,375,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,373,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,43
+1577934886410,42,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=548,,42,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934886453,47,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=548,,47,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934886501,47,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=548,,47,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934886035,511,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6934,1,1,null,,509,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,43
+1577934886549,253,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,811,1,1,http://152.136.173.30:8080/customer/login,,253,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,41
+1577934886802,3384,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=549,,3384,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934890186,4216,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=549,,4216,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,4160
+1577934894404,277,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=549,,191,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,44
+1577934886548,8130,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6936,1,1,null,,8044,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,4245
+1577934894689,520,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,520,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,106
+1577934895210,108,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=550,,108,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934895319,68,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=550,,67,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934895387,54,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=550,,54,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934894687,750,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6940,1,1,null,,749,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,106
+1577934895442,180,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,179,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,40
+1577934895623,221,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=552,,221,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934895844,63,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=552,,63,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934895908,65,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=552,,65,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934895441,529,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6926,1,1,null,,528,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,40
+1577934895973,265,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,264,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,44
+1577934896238,130,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=553,,130,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934896370,58,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=553,,57,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934896428,54,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=553,,54,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934895973,507,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6934,1,1,null,,505,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,44
+1577934896483,185,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,819,1,1,http://152.136.173.30:8080/customer/login,,184,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577934896669,91,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=554,,91,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934896761,134,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=554,,133,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934896895,50,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=554,,50,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934896483,460,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6944,1,1,null,,458,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577934896945,166,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,34
+1577934897111,40,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=555,,39,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934897151,45,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=555,,44,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934897196,136,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=555,,136,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934896945,387,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6927,1,1,null,,385,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,34
+1577934897332,182,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,821,1,1,http://152.136.173.30:8080/customer/login,,177,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,44
+1577934897515,40,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=556,,40,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934897556,41,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=556,,40,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934897597,44,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=556,,44,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934897332,307,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6946,1,1,null,,301,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,44
+1577934897642,301,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,301,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577934897944,38,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=557,,38,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934897983,81,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=557,,67,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934898064,46,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=557,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934897642,466,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6927,1,1,null,,452,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577934898110,226,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,226,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,59
+1577934898336,40,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=558,,39,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934898376,45,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=558,,44,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934898421,46,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=558,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934898110,357,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6934,1,1,null,,355,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,59
+1577934898468,166,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,803,1,1,http://152.136.173.30:8080/customer/login,,166,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,35
+1577934898635,37,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=559,,37,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934898673,46,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=559,,44,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934898719,45,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=559,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934898467,294,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6928,1,1,null,,292,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,35
+1577934898764,360,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,812,1,1,http://152.136.173.30:8080/customer/login,,360,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,227
+1577934899127,39,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=560,,39,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934899167,46,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=560,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934899213,45,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=560,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934898764,490,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6937,1,1,null,,489,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,5,227
+1577934899259,329,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,329,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,197
+1577934899589,61,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=561,,60,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934899650,44,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=561,,43,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934899695,53,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=561,,53,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934899259,487,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6924,1,1,null,,485,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,197
+1577934899749,295,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,292,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577934900045,46,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=562,,44,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934900091,55,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=562,,49,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934900146,53,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=562,,53,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934899749,449,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6934,1,1,null,,438,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,38
+1577934900200,234,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,794,1,1,http://152.136.173.30:8080/customer/login,,234,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577934900435,44,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=563,,44,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934900479,61,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=563,,60,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934900541,49,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=563,,49,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934900200,388,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6919,1,1,null,,387,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,37
+1577934900591,190,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,808,1,1,http://152.136.173.30:8080/customer/login,,188,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,41
+1577934900781,48,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=564,,47,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934900829,272,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=564,,272,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934901101,55,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=564,,54,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934900591,565,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6933,1,1,null,,561,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,41
+1577934901157,191,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,190,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577934901349,133,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=565,,133,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934901483,58,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=565,,56,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934901541,58,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=565,,57,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934901157,440,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6923,1,1,null,,436,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,38
+1577934901600,184,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,797,1,1,http://152.136.173.30:8080/customer/login,,184,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,33
+1577934901784,43,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=566,,41,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934901828,43,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=566,,41,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934901872,266,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=566,,266,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934901600,536,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6922,1,1,null,,532,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,33
+1577934902140,168,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,816,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577934902310,40,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=567,,39,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934902351,46,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=567,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934902398,255,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=567,,255,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934902139,509,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6941,1,1,null,,508,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,5,31
+1577934902654,197,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,793,1,1,http://152.136.173.30:8080/customer/login,,196,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,45
+1577934902852,338,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=568,,338,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934903190,67,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=568,,65,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934903258,53,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=568,,53,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934902653,655,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6918,1,1,null,,652,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,45
+1577934903311,298,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,814,1,1,http://152.136.173.30:8080/customer/login,,297,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,70
+1577934903610,86,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=569,,85,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934903696,56,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=569,,54,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934903752,60,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=569,,60,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934903311,500,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6939,1,1,null,,496,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,70
+1577934903812,195,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,193,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,42
+1577934904009,285,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=570,,283,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934904295,51,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=570,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934904346,54,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=570,,54,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934903812,585,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6927,1,1,null,,578,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,42
+1577934904401,251,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,792,1,1,http://152.136.173.30:8080/customer/login,,251,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,39
+1577934904653,46,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=571,,42,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934904699,54,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=571,,52,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934904753,51,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=571,,51,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934904400,402,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6917,1,1,null,,396,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,39
+1577934904804,641,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,794,1,1,http://152.136.173.30:8080/customer/login,,641,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,500
+1577934905445,46,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=572,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934905492,54,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=572,,52,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934905546,154,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=572,,154,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934904804,895,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6919,1,1,null,,892,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,500
+1577934905701,185,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,823,1,1,http://152.136.173.30:8080/customer/login,,184,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577934905887,43,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=573,,42,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934905930,56,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=573,,55,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934905987,48,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=573,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934905701,332,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6948,1,1,null,,329,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,37
+1577934906036,319,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,42
+1577934906357,59,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=574,,58,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934906416,62,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=574,,60,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934906479,53,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=574,,53,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934906036,493,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6930,1,1,null,,349,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,42
+1577934906533,225,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,816,1,1,http://152.136.173.30:8080/customer/login,,224,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,89
+1577934906759,44,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=575,,43,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934906803,69,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=575,,65,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934906872,50,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=575,,50,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934906533,388,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6941,1,1,null,,382,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,89
+1577934906923,183,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,182,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577934907107,42,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=576,,42,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934907149,264,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=576,,258,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934907413,70,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=576,,70,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934906923,559,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6940,1,1,null,,552,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,38
+1577934907485,164,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,163,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577934907649,242,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=577,,241,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934907892,48,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=577,,47,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934907940,66,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=577,,66,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934907485,520,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6932,1,1,null,,517,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,32
+1577934908006,183,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,813,1,1,http://152.136.173.30:8080/customer/login,,182,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,34
+1577934908190,242,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=578,,242,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934908433,51,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=578,,44,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934908485,45,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=578,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934908006,521,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6938,1,1,null,,513,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,34
+1577934908531,294,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,289,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,70
+1577934908826,42,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=579,,41,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934908869,102,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=579,,101,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934908972,80,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=579,,80,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934908531,518,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6926,1,1,null,,511,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,70
+1577934909053,170,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,797,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,35
+1577934909224,258,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=580,,258,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934909483,49,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=580,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934909532,46,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=580,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934909053,523,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6922,1,1,null,,521,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,35
+1577934909579,171,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,816,1,1,http://152.136.173.30:8080/customer/login,,171,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,35
+1577934909752,125,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=581,,125,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934909877,62,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=581,,61,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934909940,83,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=581,,83,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934909579,441,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6941,1,1,null,,440,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,35
+1577934910023,169,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,35
+1577934910193,43,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=582,,42,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934910236,70,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=582,,70,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934910307,285,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=582,,284,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934910023,567,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6927,1,1,null,,565,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,35
+1577934910592,331,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,328,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,96
+1577934910924,100,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=583,,100,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934911025,111,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=583,,105,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934911137,57,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=583,,57,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934910592,599,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6926,1,1,null,,590,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,96
+1577934911194,456,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,455,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,40
+1577934911651,49,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=584,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934911700,176,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=584,,140,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934911876,140,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=584,,140,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934911194,821,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6942,1,1,null,,783,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,40
+1577934912017,260,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,260,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577934912278,49,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=585,,47,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934912328,53,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=585,,49,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934912382,442,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=585,,442,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934912017,804,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6932,1,1,null,,798,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,38
+1577934912825,224,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,224,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,60
+1577934913050,62,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=586,,62,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934913112,60,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=586,,57,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934913172,58,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=586,,58,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934912825,404,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6924,1,1,null,,401,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,60
+1577934913230,510,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,509,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,44
+1577934913741,102,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=587,,102,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934913844,107,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=587,,104,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934913951,210,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=587,,210,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934913230,929,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6927,1,1,null,,925,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,44
+1577934914162,231,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,230,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,40
+1577934914394,52,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=588,,52,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934914446,278,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=588,,277,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934914725,64,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=588,,64,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934914162,625,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6940,1,1,null,,623,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,40
+1577934914790,188,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,803,1,1,http://152.136.173.30:8080/customer/login,,188,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,47
+1577934914979,182,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=589,,180,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934915161,54,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=589,,52,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934915216,54,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=589,,54,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934914790,478,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6928,1,1,null,,474,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,47
+1577934915271,217,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,216,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,46
+1577934915488,284,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=590,,284,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934915772,61,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=590,,58,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934915834,57,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=590,,57,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934915270,619,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6927,1,1,null,,615,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,46
+1577934915892,289,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,808,1,1,http://152.136.173.30:8080/customer/login,,288,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,144
+1577934916182,43,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=591,,43,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934916225,179,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=591,,175,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934916405,55,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=591,,55,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934915891,566,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6933,1,1,null,,561,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,144
+1577934916460,359,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,825,1,1,http://152.136.173.30:8080/customer/login,,354,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577934916820,41,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=592,,41,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934916861,54,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=592,,53,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934916915,48,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=592,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934916460,502,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6950,1,1,null,,496,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577934916963,250,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,249,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577934917213,50,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=593,,50,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934917264,46,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=593,,44,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934917310,56,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=593,,56,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934916963,402,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6934,1,1,null,,399,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577934917366,261,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,238,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577934917628,235,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=594,,235,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934917863,55,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=594,,54,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934917918,53,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=594,,53,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934917366,604,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6925,1,1,null,,580,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,36
+1577934917972,191,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,811,1,1,http://152.136.173.30:8080/customer/login,,189,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,57
+1577934918163,172,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=595,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934918336,44,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=595,,44,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934918381,82,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=595,,82,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934917972,489,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6936,1,1,null,,487,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,57
+1577934918464,178,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,174,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,34
+1577934918643,45,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=596,,40,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934918688,274,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=596,,274,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934918963,48,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=596,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934918464,545,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6934,1,1,null,,536,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,34
+1577934919012,367,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,805,1,1,http://152.136.173.30:8080/customer/login,,367,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577934919380,39,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=597,,39,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934919419,47,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=597,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934919466,81,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=597,,81,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934919012,534,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6930,1,1,null,,532,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,32
+1577934919548,178,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,807,1,1,http://152.136.173.30:8080/customer/login,,178,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577934919727,268,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=598,,268,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934919995,61,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=598,,59,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934920056,55,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=598,,55,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934919548,562,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6932,1,1,null,,560,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,38
+1577934920111,342,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,816,1,1,http://152.136.173.30:8080/customer/login,,342,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577934920454,58,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=599,,57,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934920512,55,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=599,,53,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934920568,55,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=599,,55,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934920111,510,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6941,1,1,null,,507,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,38
+1577934920623,389,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,804,1,1,http://152.136.173.30:8080/customer/login,,386,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,51
+1577934921013,47,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=600,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934921061,53,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=600,,50,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934921115,173,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=600,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934920623,662,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6929,1,1,null,,655,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,51
+1577934921288,312,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,312,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,171
+1577934921601,48,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=601,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934921650,136,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=601,,136,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934921787,310,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=601,,309,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934921288,806,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6931,1,1,null,,805,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,171
+1577934922098,250,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,798,1,1,http://152.136.173.30:8080/customer/login,,250,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,101
+1577934922349,105,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=602,,103,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934922454,50,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=602,,50,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934922504,55,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=602,,55,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934922098,460,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6923,1,1,null,,458,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,101
+1577934922560,173,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,821,1,1,http://152.136.173.30:8080/customer/login,,173,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577934922735,48,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=603,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934922783,57,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=603,,54,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934922840,269,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=603,,269,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934922559,547,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6946,1,1,null,,544,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,37
+1577934923109,239,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,239,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,44
+1577934923350,47,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=604,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934923397,112,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=604,,107,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934923509,51,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=604,,51,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934923109,449,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6925,1,1,null,,443,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,44
+1577934923561,182,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,808,1,1,http://152.136.173.30:8080/customer/login,,182,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577934923744,46,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=605,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934923791,51,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=605,,50,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934923842,56,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=605,,56,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934923561,335,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6933,1,1,null,,334,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,38
+1577934923898,429,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,808,1,1,http://152.136.173.30:8080/customer/login,,429,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,256
+1577934924327,42,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=606,,42,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934924370,46,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=606,,43,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934924416,134,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=606,,133,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934923898,651,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6933,1,1,null,,647,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,256
+1577934924551,167,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,816,1,1,http://152.136.173.30:8080/customer/login,,167,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,34
+1577934924719,38,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=607,,37,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934924757,47,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=607,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934924804,50,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=607,,50,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934924551,302,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6941,1,1,null,,299,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,34
+1577934924855,352,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,804,1,1,http://152.136.173.30:8080/customer/login,,348,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577934925208,39,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=608,,39,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934925248,87,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=608,,85,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934925336,47,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=608,,47,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934924855,525,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6929,1,1,null,,519,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,32
+1577934925383,263,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,810,1,1,http://152.136.173.30:8080/customer/login,,263,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,54
+1577934925647,37,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=609,,37,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934925685,47,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=609,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934925733,78,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=609,,78,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934925383,425,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6935,1,1,null,,423,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,54
+1577934925818,168,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,808,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577934925987,286,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=610,,286,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934926274,50,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=610,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934926325,45,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=610,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934925818,549,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6933,1,1,null,,547,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,32
+1577934926370,277,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,818,1,1,http://152.136.173.30:8080/customer/login,,276,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,66
+1577934926647,43,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=611,,42,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934926690,49,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=611,,47,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934926739,46,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=611,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934926370,415,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6943,1,1,null,,411,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,66
+1577934926786,215,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,192,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,39
+1577934927001,46,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=612,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934927047,259,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=612,,257,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934927307,96,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=612,,96,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934926786,616,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6942,1,1,null,,591,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,39
+1577934927404,172,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,808,1,1,http://152.136.173.30:8080/customer/login,,172,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,36
+1577934927577,117,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=613,,116,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934927694,49,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=613,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934927743,97,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=613,,97,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934927404,435,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6933,1,1,null,,431,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,36
+1577934927841,208,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,793,1,1,http://152.136.173.30:8080/customer/login,,208,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,40
+1577934928050,46,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=614,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934928096,252,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=614,,251,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934928348,54,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=614,,53,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934927840,560,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6918,1,1,null,,557,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,40
+1577934928402,340,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,819,1,1,http://152.136.173.30:8080/customer/login,,339,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,42
+1577934928744,50,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=615,,50,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934928804,56,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=615,,55,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934928860,61,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=615,,58,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934928402,507,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6944,1,1,null,,502,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,13,42
+1577934928922,194,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,822,1,1,http://152.136.173.30:8080/customer/login,,193,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577934929117,48,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=616,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934929165,238,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=616,,236,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934929403,55,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=616,,55,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934928922,535,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6947,1,1,null,,532,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,31,37
+1577934929488,189,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,804,1,1,http://152.136.173.30:8080/customer/login,,189,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,50
+1577934929678,114,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=617,,114,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934929792,65,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=617,,62,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934929857,50,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=617,,50,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934929488,418,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6929,1,1,null,,415,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,50
+1577934929907,183,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,183,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577934930091,360,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=537,,359,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934930451,53,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=537,,50,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934930504,52,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=537,,50,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934929907,648,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6940,1,1,null,,642,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,37
+1577934930556,286,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,817,1,1,http://152.136.173.30:8080/customer/login,,280,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,60
+1577934930842,39,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=538,,39,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934930882,76,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=538,,71,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934930959,48,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=538,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934930556,449,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6942,1,1,null,,438,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,60
+1577934931010,201,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,200,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,59
+1577934931211,42,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=539,,40,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934931254,255,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=539,,249,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934931510,45,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=539,,43,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934931010,543,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6925,1,1,null,,532,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,59
+1577934931556,185,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,816,1,1,http://152.136.173.30:8080/customer/login,,184,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577934931742,41,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=540,,41,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934931783,112,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=540,,102,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934931895,44,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=540,,44,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934931556,382,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6941,1,1,null,,371,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,31
+1577934931942,169,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,806,1,1,http://152.136.173.30:8080/customer/login,,168,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577934932114,40,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=541,,40,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934932154,75,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=541,,72,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934932230,76,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=541,,76,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934931941,360,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6931,1,1,null,,356,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,5,31
+1577934932306,376,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,371,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,234
+1577934932682,40,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=542,,40,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934932722,47,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=542,,44,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934932769,48,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=542,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934932306,511,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6934,1,1,null,,503,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,234
+1577934932817,274,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,272,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,117
+1577934933092,48,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=543,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934933140,53,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=543,,51,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934933193,53,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=543,,53,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934932817,428,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6926,1,1,null,,424,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,117
+1577934933247,342,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,800,1,1,http://152.136.173.30:8080/customer/login,,340,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,43
+1577934933589,47,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=545,,47,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934933636,56,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=545,,53,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934933692,75,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=545,,75,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934933247,520,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6925,1,1,null,,515,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,43
+1577934933768,219,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,812,1,1,http://152.136.173.30:8080/customer/login,,213,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,41
+1577934933987,47,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=546,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934934034,50,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=546,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934934084,50,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=546,,50,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934933768,366,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6937,1,1,null,,357,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,41
+1577934934135,169,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,169,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,34
+1577934934305,42,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=548,,42,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934934347,49,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=548,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934934396,280,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=548,,280,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934934135,540,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6934,1,1,null,,537,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,34
+1577934934677,167,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,811,1,1,http://152.136.173.30:8080/customer/login,,167,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,34
+1577934934844,44,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=549,,43,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934934888,48,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=549,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934934936,152,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=549,,152,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934934677,411,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6936,1,1,null,,407,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,0,34
+1577934935089,167,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,815,1,1,http://152.136.173.30:8080/customer/login,,165,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577934935257,39,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=550,,39,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934935297,65,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=550,,65,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934935363,46,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=550,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934935088,317,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6940,1,1,null,,315,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,31
+1577934935409,346,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,801,1,1,http://152.136.173.30:8080/customer/login,,346,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,45
+1577934935756,39,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=552,,39,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934935796,48,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=552,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934935844,48,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=552,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934935409,481,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6926,1,1,null,,479,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,45
+1577934935893,386,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,386,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,32
+1577934936279,37,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=553,,37,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934936317,47,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=553,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934936365,48,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=553,,48,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934935892,518,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6934,1,1,null,,516,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,32
+1577934936414,390,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,819,1,1,http://152.136.173.30:8080/customer/login,,390,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,31
+1577934936805,47,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=554,,47,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934936853,48,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=554,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934936901,46,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=554,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934936413,531,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6944,1,1,null,,529,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,31
+1577934936949,382,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,374,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,34
+1577934937332,43,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=555,,40,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934937375,47,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=555,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934937423,131,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=555,,131,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934936948,603,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6927,1,1,null,,590,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,4,34
+1577934937558,453,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,821,1,1,http://152.136.173.30:8080/customer/login,,453,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,324
+1577934938012,39,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=556,,39,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934938052,258,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=556,,255,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934938311,46,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=556,,46,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934937558,796,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6946,1,1,null,,793,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,324
+1577934938358,180,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,802,1,1,http://152.136.173.30:8080/customer/login,,180,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,37
+1577934938538,2821,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=557,,2810,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934941359,367,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=557,,364,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,319
+1577934941726,422,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=557,,422,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934938358,3790,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6927,1,1,null,,3776,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,356
+1577934942149,603,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,603,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,417
+1577934942753,337,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=558,,336,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934943090,110,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=558,,107,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934943200,68,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=558,,66,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934942149,1118,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6934,1,1,null,,1112,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,417
+1577934943268,551,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,803,1,1,http://152.136.173.30:8080/customer/login,,551,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,342
+1577934943820,313,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=559,,313,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934944133,63,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=559,,61,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934944196,107,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=559,,107,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934943268,1034,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6928,1,1,null,,1032,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,342
+1577934944304,293,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,812,1,1,http://152.136.173.30:8080/customer/login,,293,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,46
+1577934944597,45,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=560,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934944642,58,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=560,,57,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934944700,54,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=560,,54,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934944303,450,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6937,1,1,null,,449,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,1,46
+1577934944754,532,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,799,1,1,http://152.136.173.30:8080/customer/login,,528,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577934945288,46,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=561,,45,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934945334,51,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=561,,49,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934945385,263,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=561,,263,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934944754,892,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6924,1,1,null,,885,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,2,38
+1577934945649,573,Login,200,,Read News Thread Group(获取新闻) 1-1,text,true,,809,1,1,http://152.136.173.30:8080/customer/login,,573,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,38
+1577934946224,103,GetNewsCount,200,,Read News Thread Group(获取新闻) 1-1,text,true,,554,1,1,http://152.136.173.30:8080/news/get-news-count?userId=562,,102,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934946327,106,GetNewsList(10),200,,Read News Thread Group(获取新闻) 1-1,text,true,,3532,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=10&userId=562,,104,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934946433,296,GetNewsList(5),200,,Read News Thread Group(获取新闻) 1-1,text,true,,2039,1,1,http://152.136.173.30:8080/news/get-news-list?offset=0&limit=5&userId=562,,296,UTF-8,1,0,JJAYCHENdeMacBook-Pro.local,0,0
+1577934945649,1078,Read News,200,"Number of samples in transaction : 4, number of failing samples : 0",Read News Thread Group(获取新闻) 1-1,,true,,6934,1,1,null,,1075,ISO-8859-1,1,0,JJAYCHENdeMacBook-Pro.local,3,38
