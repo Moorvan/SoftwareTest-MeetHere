@@ -1,8 +1,6 @@
 # SoftwareTest Homework-MeetHere:sparkles:
 
 <div align="center"><img src="https://tva1.sinaimg.cn/large/006tNbRwly1gaiix846njj305k05kaa0.jpg"></img></div>
-
-
 ## 项目地址
 
 - 部署地址:rocket:
@@ -120,6 +118,10 @@ http://152.136.173.30/
 - JUnit 5
 - Mockito 3.x
 - JMockit 1.48
+
+- 测试结果
+
+    ![image-20200102220426215](https://tva1.sinaimg.cn/large/006tNbRwly1gaikh0wln2j327w0lijvp.jpg)
 
 
 
