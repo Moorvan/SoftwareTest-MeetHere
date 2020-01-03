@@ -1,7 +1,6 @@
 # SoftwareTest Homework-MeetHere:sparkles:
 
 <div align="center"><img src="https://tva1.sinaimg.cn/large/006tNbRwly1gaiix846njj305k05kaa0.jpg"></img></div>
-
 ## 项目地址
 
 - 部署地址:rocket:
@@ -12,7 +11,7 @@
 
     http://152.136.173.30/
 
-    可自行注册登录
+    可自行注册登录，考虑到我们的服务器带宽较小，第一次使用图片加载可能需要一定的时间，请耐心等待。
 
 - 管理员登录地址
 
